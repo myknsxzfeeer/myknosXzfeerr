@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="theme-color" content="#101b29" />
+
+<meta name="description" content="ZAFEER × MYKONOS — Special Collaboration. Koleksi busana premium dipadukan dengan Mykonos Extrait de Parfum." />
+
+<title>ZAFEER × MYKONOS — The Signature Edit</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root{--navy:#0d2b52;--gold:#daa73e;--black:#000;--white:#fff;--ink:#19202c;--muted:#727783;--cream:#fbfaf7;--line:#e8e5e0;--shadow:0 24px 65px rgba(0,0,0,.16)}
+
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:'DM Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased}body.lock{overflow:hidden}button,input,select{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}img{display:block;max-width:100%}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.serif{font-family:'Playfair Display',Georgia,serif}.eyebrow{font-size:.68rem;letter-spacing:.29em;text-transform:uppercase;font-weight:700}.gold{color:var(--gold)}.icon{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.hidden{display:none!important}.container{width:min(1320px,calc(100% - 9vw));margin:auto}
+
+header{position:absolute;z-index:40;top:0;left:0;width:100%;color:#fff}header .nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:18px;padding:24px 0}nav .navlinks{display:flex;gap:24px;align-items:center}.navlinks button{border:0;background:none;color:inherit;padding:6px 0;text-transform:uppercase;letter-spacing:.16em;font-size:.68rem}.navlinks button:hover{color:var(--gold)}.brand{display:flex;flex-direction:column;align-items:center;gap:0;line-height:1}.brand .monogram{font-family:Georgia,serif;color:var(--gold);font-size:2.45rem;letter-spacing:-.15em;padding-right:.15em}.brand .brand-name{font-size:.65rem;letter-spacing:.28em;margin-top:5px;white-space:nowrap}.nav-actions{display:flex;justify-content:flex-end;gap:8px;align-items:center}.navicon{border:0;background:transparent;color:#fff;padding:9px;position:relative;border-radius:50%;display:grid;place-items:center;transition:*background* .2s,transform .2s}.navicon:hover{background:rgba(255,255,255,.14);transform:translateY(-2px)}.navicon .count{position:absolute;right:0;top:0;min-width:17px;height:17px;background:var(--gold);border-radius:20px;color:#080b10;font-size:10px;font-weight:800;padding:2px}.verified-dot{font-size:.55rem;letter-spacing:.06em;color:#eac777;border:1px solid #eac777;padding:6px 8px;border-radius:20px;white-space:nowrap}
+
+.hero{position:relative;min-height:780px;height:min(96vh,940px);background:#07111f;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#fff}.hero-images{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr}.hero-portrait{position:relative;overflow:hidden}.hero-portrait img{width:100%;height:100%;object-fit:cover;object-position:center 28%;filter:brightness(.48) saturate(.75);transform:scale(1.06);animation:heroIn 1.9s cubic-bezier(.18,.65,.2,1) both}.hero-portrait:nth-child(2) img{animation-delay:.2s}.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(4,12,24,.35),transparent 32%,rgba(4,10,20,.58) 50%,transparent 68%,rgba(4,12,24,.38)),linear-gradient(0deg,#061020 0%,transparent 42%,rgba(4,12,24,.42) 100%)}.hero-inner{z-index:2;text-align:center;position:relative;padding:145px 20px 90px;animation:fadeUp 1.2s .3s both}.hero-mark{font-family:Georgia,serif;font-size:clamp(5.5rem,13vw,12rem);line-height:.85;letter-spacing:-.18em;padding-right:.18em;font-weight:400;color:#e7bd68;text-shadow:0 10px 40px rgba(0,0,0,.32)}.hero-line{width:65px;height:1px;background:var(--gold);margin:30px auto 25px}.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.6rem,3.1vw,3.3rem);font-weight:500;letter-spacing:.035em;margin:0}.hero .tag{margin:20px 0 34px;font-size:.67rem;letter-spacing:.44em;text-transform:uppercase;color:#ead5a9}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:3px;border:1px solid transparent;padding:14px 24px;font-size:.72rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;transition:transform .2s,*background* .2s,color .2s,border .2s}.btn:hover{transform:translateY(-2px)}.btn-gold{background:var(--gold);color:#111}.btn-gold:hover{background:#edbe59}.btn-dark{background:#070707;color:white}.btn-dark:hover{background:var(--navy)}.btn-outline{border-color:#d7d5d0;background:transparent;color:#1b1b1b}.btn-outline:hover{border-color:var(--gold)}.btn-full{width:100%}.scroll-note{position:absolute;bottom:37px;left:50%;transform:translateX(-50%);z-index:3;color:#fff8;font-size:.6rem;letter-spacing:.25em;text-transform:uppercase}
+
+.intro{text-align:center;padding:95px 0 75px}.intro .kicker{color:#ac7d29}.intro h2{font-family:'Playfair Display',Georgia,serif;font-weight:500;font-size:clamp(2rem,4.3vw,4.1rem);margin:17px 0}.intro p{max-width:650px;margin:auto;color:#6c6c6c;line-height:1.85;font-size:.9rem}.section-title{display:flex;justify-content:space-between;align-items:end;gap:20px;padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:35px}.section-title h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.65rem,3vw,2.8rem);font-weight:500;margin:12px 0 0}.section-title p{color:var(--muted);font-size:.8rem}.filters{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:30px}.chip{border:1px solid #d9d7d2;background:transparent;color:#333;padding:10px 20px;border-radius:100px;font-size:.74rem}.chip.active,.chip:hover{background:var(--navy);border-color:var(--navy);color:white}.catalog{padding-bottom:105px}.product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:54px 30px}.product{min-width:0;animation:fadeUp .7s both}.product-media{position:relative;aspect-ratio:3/4.15;background:#f0efed;overflow:hidden;border-radius:4px;cursor:pointer;isolation:isolate}.product-media img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .6s cubic-bezier(.2,.8,.2,1),filter .4s;transform:scale(1.005)}.product:hover .product-media img{transform:scale(1.085);filter:contrast(1.035)}.product:hover .product-media{box-shadow:0 22px 40px rgba(13,43,82,.12)}.product-media .photo-label{position:absolute;left:15px;top:15px;background:#fffdf0ed;color:#17365b;font-size:.58rem;font-weight:700;letter-spacing:.14em;padding:8px 12px}.product-media .quick{position:absolute;bottom:15px;right:15px;border:0;background:#fff;width:43px;height:43px;display:grid;place-items:center;border-radius:50%;box-shadow:0 8px 28px #0002;transition:transform .25s}.product:hover .quick{transform:translateY(-5px)}.product-info{padding-top:17px;display:flex;justify-content:space-between;gap:12px;align-items:start}.product-info h3{font-size:.95rem;font-weight:600;margin:0 0 8px;line-height:1.5}.price{font-weight:700;font-size:.88rem;color:var(--navy)}.product-stars{margin-top:9px;color:#b08837;font-size:.67rem}.product-stars span{color:#777;margin-left:6px}.product .buy{margin-top:15px;width:100%;padding:12px}.empty-results{padding:35px;text-align:center;color:var(--muted)}
+
+.story{background:var(--navy);color:white;padding:80px 0}.story .container{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.story-visual{display:grid;grid-template-columns:1fr 1fr;gap:12px}.story-visual img{width:100%;aspect-ratio:3/4;object-fit:cover}.story-visual img:nth-child(2){margin-top:35px}.story h2{font-size:clamp(2rem,3.6vw,3.7rem);font-family:'Playfair Display',Georgia,serif;font-weight:400;line-height:1.3;margin:15px 0 22px}.story p{color:#e5eaf1b9;font-size:.9rem;line-height:2;max-width:460px}.story .line{width:55px;height:2px;background:var(--gold);margin-top:35px}
+
+.gallery-section{padding:92px 0 85px;overflow:hidden}.gallery-section .container{text-align:center;margin-bottom:32px}.gallery-section h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.7rem,3vw,3rem);font-weight:500;margin:13px 0}.gallery-viewport{overflow:hidden;width:100%;padding:8px 0 24px}.gallery-track{display:flex;gap:15px;width:max-content;will-change:transform;transition:transform .7s cubic-bezier(.22,.7,.2,1)}.gallery-item{height:240px;width:184px;flex:0 0 184px;overflow:hidden;border-radius:3px;background:white}.gallery-item:nth-child(3n){width:215px;flex-basis:215px}.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gallery-item:hover img{transform:scale(1.07)}footer{background:#080d15;color:white;padding:65px 0 25px}.footer-inner{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:35px}.footer-inner .foot-brand{font-family:'Playfair Display',Georgia,serif;font-size:1.65rem;color:#f2d5a0}.footer-inner p{color:#9ca5af;font-size:.82rem;line-height:1.8}.footer-inner h4{font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:#e4bf79}.footer-inner button{display:block;border:0;color:#b4bbc5;background:transparent;margin:12px 0;padding:0;text-align:left;font-size:.8rem}.copyright{border-top:1px solid #ffffff1c;margin-top:50px;padding-top:24px;display:flex;justify-content:space-between;color:#87919d;font-size:.68rem}.wa-float{position:fixed;right:22px;bottom:22px;z-index:35;width:55px;height:55px;background:#080808;color:white;border:1px solid #ffffff3a;border-radius:16px;display:grid;place-items:center;box-shadow:0 10px 30px #0004;transition:transform .25s}.wa-float:hover{transform:translateY(-4px)}.wa-float .icon{width:27px;height:27px}
+
+.overlay{position:fixed;inset:0;background:rgba(2,8,16,.66);backdrop-filter:blur(3px);z-index:99;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}.overlay.open{opacity:1;visibility:visible}.dialog{position:fixed;inset:50% auto auto 50%;transform:translate(-50%,-47%) scale(.98);z-index:110;background:white;border-radius:8px;box-shadow:var(--shadow);width:min(550px,calc(100% - 24px));max-height:calc(100dvh - 30px);overflow:auto;opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility .25s}.dialog.open{opacity:1;visibility:visible;transform:translate(-50%,-50%) scale(1)}.dialog-head{display:flex;align-items:center;justify-content:space-between;padding:23px 27px;border-bottom:1px solid var(--line);gap:12px}.dialog-head h3{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:500;margin:0}.close{background:transparent;border:0;padding:6px;display:grid;place-items:center;color:#333}.dialog-body{padding:25px 27px}.field{margin:14px 0}.field label{display:block;font-size:.75rem;font-weight:700;margin-bottom:8px}.field input,.field select{width:100%;padding:14px 13px;border-radius:4px;background:white;border:1px solid #d9d9d9;color:#222;outline:none}.field input:focus,.field select:focus{border-color:var(--gold)}.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:22px}.tabs button{border:1px solid var(--line);padding:13px;background:#fff}.tabs button.active{background:var(--navy);color:#fff;border-color:var(--navy)}.helper{color:var(--muted);font-size:.75rem;line-height:1.7}.success{padding:25px;text-align:center}.success .big{color:#16865f;font-size:3rem}.status-pill{display:inline-block;background:#e7f5ec;color:#1a6a46;border-radius:20px;padding:8px 14px;font-weight:800;font-size:.7rem;letter-spacing:.1em}
+
+.drawer{position:fixed;right:0;top:0;bottom:0;width:min(435px,100%);background:#fff;z-index:111;box-shadow:-15px 0 60px #0002;transform:translateX(105%);visibility:hidden;transition:transform .3s,visibility .3s;display:flex;flex-direction:column}.drawer.open{transform:translateX(0);visibility:visible}.drawer-head{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.drawer-head h3{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;margin:0}.drawer-content{padding:20px 24px;overflow:auto;flex:1}.cart-empty{text-align:center;padding:30px 10px;color:#777}.cart-empty h4{font-family:'Playfair Display',Georgia,serif;color:#222;font-size:1.2rem}.drawer-products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px;margin-top:19px}.mini{min-width:0;cursor:pointer}.mini img{width:100%;aspect-ratio:3/3.6;object-fit:cover;border-radius:3px}.mini h5{margin:7px 0 3px;font-size:.69rem;line-height:1.4}.mini p{margin:0;font-size:.7rem;color:#777}.cart-line{display:grid;grid-template-columns:65px 1fr auto;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}.cart-line img{height:77px;width:65px;object-fit:cover}.cart-line strong{font-size:.76rem}.cart-line p{font-size:.7rem;color:#777;margin:5px 0}.cart-footer{padding:18px 24px;border-top:1px solid var(--line)}.cart-footer .total{display:flex;justify-content:space-between;margin-bottom:16px;font-weight:700}.text-btn{border:0;background:none;text-decoration:underline;color:var(--navy);font-size:.72rem;padding:5px}.cart-footer .helper{font-size:.65rem;margin:9px 0 0}.searchdialog{width:min(800px,calc(100% - 25px));top:25px;transform:translate(-50%,-8px);max-height:calc(100dvh - 45px)}.searchdialog.open{transform:translate(-50%,0)}.searchdialog .dialog-body{padding-top:14px}.searchbox{display:flex;border:1px solid #d4d4d4;border-radius:4px;align-items:center;padding:0 14px;gap:10px}.searchbox input{padding:17px 0;border:0;outline:0;flex:1;min-width:0}.suggestions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.suggestions button{background:#f4f2ee;border:0;border-radius:20px;padding:7px 12px;font-size:.73rem}.results-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:20px;max-height:55vh;overflow:auto}.result-card{cursor:pointer;min-width:0}.result-card img{aspect-ratio:3/3.6;object-fit:cover;width:100%}.result-card strong{display:block;font-size:.68rem;margin-top:6px}.result-card small{font-size:.67rem;color:#666}
+
+.detail-page{background:var(--cream);min-height:100vh;display:none}.detail-page.active{display:block}.detail-header{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);z-index:45;border-bottom:1px solid #e6e4df}.detail-nav{padding:13px 0;display:flex;justify-content:space-between;align-items:center;gap:10px}.detail-nav .mark{font-family:'Playfair Display',Georgia,serif;font-size:1.15rem;letter-spacing:.03em;color:var(--navy);background:none;border:0}.detail-nav .rhs{display:flex;align-items:center;gap:8px}.detail-nav .navicon{color:#111}.back{border:0;background:none;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;display:flex;align-items:center;gap:7px}.detail-wrap{padding:52px 0 110px}.product-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:clamp(30px,5vw,85px);align-items:start}.detail-image{width:100%;aspect-ratio:3/4;object-fit:cover;background:#efefef}.detail-right{padding-top:8px}.stock{color:#347255;font-size:.73rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.detail-right h1{font-family:'Playfair Display',Georgia,serif;font-weight:500;font-size:clamp(2rem,3.4vw,3.4rem);line-height:1.25;margin:14px 0 17px}.rating-line{display:flex;gap:11px;align-items:center;font-size:.8rem}.starss{color:#d7a743;letter-spacing:.13em}.detail-price{font-size:1.4rem;font-weight:700;color:var(--navy);margin:23px 0 19px}.detail-tagline{color:#616975;font-size:.84rem;line-height:1.85;border-top:1px solid var(--line);padding-top:20px}.detail-right .section-small{font-weight:700;margin:27px 0 12px;font-size:.82rem}.size-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px}.size{min-height:48px;border:1px solid #d3d3d3;background:white;border-radius:3px;font-size:.77rem}.size.selected{background:var(--navy);border-color:var(--navy);color:white}.qty{display:flex;align-items:center;margin:23px 0}.qty button{width:43px;height:42px;border:1px solid #ddd;background:white}.qty span{width:50px;text-align:center;border-block:1px solid #ddd;height:42px;display:grid;place-items:center;font-size:.86rem}.detail-buttons{display:grid;gap:9px}.note{font-size:.77rem;line-height:1.9;color:#737373;margin-top:20px}.info-box{border:1px solid var(--line);padding:20px;margin-top:23px;background:#fff}.info-box h4{margin:0 0 12px;font-size:.82rem}.info-box .info-row{display:flex;justify-content:space-between;gap:10px;font-size:.76rem;margin:8px 0;color:#666}.info-box select{max-width:195px;padding:7px;border:1px solid #ddd;background:white}.below{margin-top:72px;display:grid;grid-template-columns:1fr 1fr;gap:55px}.block-title{font-family:'Playfair Display',Georgia,serif;font-size:1.75rem;margin:0 0 17px;font-weight:500}.description{color:#58606a;font-size:.86rem;line-height:1.95}.description ul{padding-left:20px}.description li{margin:7px 0}.review-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:17px;gap:10px}.review{padding:16px 0;border-top:1px solid var(--line)}.review .top{display:flex;justify-content:space-between;gap:12px;align-items:center}.review strong{font-size:.8rem}.review p{font-size:.78rem;color:#606874;line-height:1.8;margin:10px 0 0}.review .starss{font-size:.75rem}.muted{color:var(--muted)}.toast{position:fixed;z-index:200;left:50%;bottom:24px;transform:translate(-50%,40px);opacity:0;pointer-events:none;background:#0b203b;color:white;padding:13px 21px;border:1px solid #c99c49;border-radius:6px;box-shadow:0 8px 30px #0004;font-size:.8rem;transition:all .25s;max-width:calc(100vw - 25px);text-align:center}.toast.show{opacity:1;transform:translate(-50%,0)}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}@keyframes heroIn{from{opacity:0;transform:scale(1.14)}to{opacity:1;transform:scale(1.06)}}.reveal{opacity:0;transform:translateY(35px);transition:opacity .8s ease,transform .8s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+
+@media(max-width:900px){.container{width:min(100% - 38px,800px)}.navlinks{display:none!important}.hero{min-height:620px;height:85svh}.hero-images{grid-template-columns:1fr 1fr}.hero-portrait img{object-position:48% 25%}.intro{padding:70px 0 55px}.product-grid{gap:35px 15px}.product-info h3{font-size:.83rem}.story .container{gap:25px}.product-layout{gap:28px}.size-grid{grid-template-columns:repeat(3,1fr)}.below{gap:30px}}
+
+@media(max-width:640px){header .nav{grid-template-columns:auto 1fr;padding:15px 0}.brand{align-items:flex-start}.brand .monogram{font-size:1.9rem}.brand .brand-name{font-size:.46rem;letter-spacing:.18em}.nav-actions{gap:0}.navicon{padding:7px}.navicon .icon{width:18px;height:18px}.verified-dot{font-size:.47rem;letter-spacing:0;padding:4px}.hero{min-height:600px;height:87svh}.hero-images{grid-template-columns:1fr 1fr}.hero-inner{padding:140px 16px 70px}.hero-mark{font-size:6.6rem}.hero h1{font-size:1.75rem}.hero .tag{font-size:.58rem;letter-spacing:.28em}.hero-portrait:nth-child(1) img{object-position:50% 30%}.hero-portrait:nth-child(2) img{object-position:52% 28%}.intro h2{font-size:2.2rem}.intro p{font-size:.82rem}.section-title{align-items:start;flex-direction:column;gap:0}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 12px}.product-media{aspect-ratio:3/4.3}.product-media .photo-label{font-size:.48rem;left:7px;top:7px;padding:6px}.product-info h3{font-size:.76rem}.product-info{padding-top:11px}.price{font-size:.78rem}.product .buy{font-size:.6rem;padding:11px 6px}.product-media .quick{width:32px;height:32px;right:7px;bottom:8px}.quick .icon{width:17px}.story{padding:55px 0}.story .container{grid-template-columns:1fr}.story-visual{order:2}.gallery-section{padding:60px 0}.gallery-item{height:165px;width:123px;flex-basis:123px}.gallery-item:nth-child(3n){width:150px;flex-basis:150px}.footer-inner{grid-template-columns:1fr 1fr;gap:25px}.footer-inner>div:first-child{grid-column:span 2}.copyright{gap:10px;flex-direction:column}.results-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.detail-wrap{padding-top:22px}.detail-nav .mark{font-size:.88rem}.detail-nav .back{font-size:.62rem}.product-layout{grid-template-columns:1fr;gap:22px}.detail-image{aspect-ratio:3/3.95}.detail-right h1{font-size:2.1rem}.below{grid-template-columns:1fr;margin-top:55px;gap:40px}.dialog-body{padding:18px}.dialog-head{padding:18px}.wa-float{right:13px;bottom:13px;width:49px;height:49px}.drawer-content{padding:17px}.drawer-head{padding:17px}}
+
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+
+
+/* Uploaded branded imagery: original PNG names kept; catalog stays WEBP. */
+.hero{height:auto;min-height:0;aspect-ratio:1672 / 941;background:#09101b}
+.hero-images{display:block;position:absolute;inset:0}
+.hero-banner{width:100%;height:100%;object-fit:cover;object-position:center}
+.hero:after{display:none}
+.hero-inner{padding:0;position:absolute;bottom:10%;left:0;right:0;animation:none}
+.hero-inner .btn{background:rgba(218,167,62,.95);box-shadow:0 6px 22px #0007}
+.scroll-note{display:none}
+.intro-logo{width:min(400px,75vw);margin:0 auto 22px;display:block;height:auto}
+.custom-icon{display:block;width:42px;height:42px;object-fit:contain;flex-shrink:0}
+.navicon{padding:0;width:42px;height:42px;overflow:hidden}
+.navicon .custom-icon{width:42px;height:42px}
+header .navicon .custom-icon{filter:invert(1)}
+.wa-float .custom-icon{width:30px;height:30px;max-width:100%;object-fit:contain}
+.wa-float{overflow:visible}
+.cart-empty .custom-icon{width:60px;height:60px;margin:0 auto}
+@media(max-width:640px){.hero{height:auto;min-height:0;aspect-ratio:1672/941}.hero-inner{bottom:6%}.hero-inner .btn{font-size:.55rem;padding:10px 12px}.navicon,.navicon .custom-icon{height:34px;width:34px}.wa-float .custom-icon{height:27px;width:27px}}
+
+/* Checkout experience — responsive, demo-only payment flow */
+.checkout-page,.order-success-page{display:none;min-height:100vh;background:#fff;color:#202027}
+.checkout-page.active,.order-success-page.active{display:block}
+.checkout-top{position:sticky;top:0;z-index:70;background:#fff;border-bottom:1px solid #e9e9ec}
+.checkout-top-inner{max-width:1150px;margin:auto;padding:17px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.checkout-brand{font-family:'Playfair Display',Georgia,serif;font-size:1.32rem;color:var(--navy);font-weight:600}
+.checkout-back{background:none;border:0;color:#555;font-size:.82rem;display:flex;align-items:center;gap:7px}
+.checkout-shell{max-width:1150px;margin:0 auto;padding:42px 26px 90px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.95fr);gap:68px;align-items:start}
+.checkout-form h2{font-family:'Playfair Display',Georgia,serif;font-size:1.25rem;margin:0 0 17px;font-weight:600;color:#10131a}
+.checkout-block{margin-bottom:44px}.checkout-login{font-size:.79rem;margin:-7px 0 20px}.checkout-login button{background:none;border:0;text-decoration:underline;color:var(--navy);padding:0}
+.checkout-fields{display:grid;gap:13px}.checkout-field{display:flex;flex-direction:column;gap:6px}
+.checkout-field label{font-size:.74rem;color:#5d626c;font-weight:600}.checkout-field input,.checkout-field select,.checkout-field textarea{width:100%;padding:12px 13px;background:#fff;border:1px solid #dddfe4;border-radius:7px;outline:none;color:#252934;font-size:.82rem;min-height:45px}
+.checkout-field textarea{resize:vertical;min-height:85px;line-height:1.6}.checkout-field input:focus,.checkout-field select:focus,.checkout-field textarea:focus{border-color:#af863b;box-shadow:0 0 0 2px #daa73e25}
+.checkout-field small{color:#90949d;font-size:.68rem}.checkout-field .optional{font-weight:400;color:#9598a0}
+.checkout-two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.checkout-help{font-size:.78rem;line-height:1.7;color:#737986;margin:0 0 15px}
+.checkout-methods{display:grid;gap:9px}.checkout-method{border:1px solid #e0e2e6;border-radius:8px;padding:13px 14px;display:flex;align-items:center;gap:12px;cursor:pointer;transition:all .18s;background:#fff}
+.checkout-method:has(input:checked){border-color:var(--navy);background:#f6f8fb;box-shadow:0 0 0 1px var(--navy)}.checkout-method input{accent-color:var(--navy);width:17px;height:17px;flex-shrink:0}.checkout-method-text{font-weight:600;font-size:.83rem;flex:1}.checkout-method-note{font-size:.71rem;font-weight:400;color:#79808b}
+.checkout-method-mark{font-weight:800;font-size:.67rem;color:#12365d;border:1px solid #e0e4ee;border-radius:4px;min-width:48px;padding:7px 6px;text-align:center;background:#fff}
+.checkout-summary{position:sticky;top:102px;border:1px solid #e1e3e7;border-radius:9px;padding:22px 19px;box-shadow:0 7px 26px #00000006}
+.checkout-summary h2{font-family:'Playfair Display',Georgia,serif;font-size:1.17rem;margin:0 0 20px}.checkout-order-item{display:grid;grid-template-columns:65px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #ebebee}
+.checkout-order-item img{width:65px;height:78px;object-fit:cover;border-radius:5px}.checkout-order-item strong{font-size:.75rem;line-height:1.5;display:block}.checkout-order-item p{font-size:.72rem;color:#777d89;margin:5px 0}.checkout-order-price{font-size:.72rem;white-space:nowrap;font-weight:600}
+.checkout-row{display:flex;justify-content:space-between;gap:18px;padding:9px 0;font-size:.79rem}.checkout-row.total{border-top:1px solid #e6e6e8;margin-top:8px;padding-top:15px;font-weight:800;font-size:.92rem}
+.checkout-alert{background:#eef1fa;color:#596482;border-radius:5px;font-size:.73rem;line-height:1.6;padding:12px 13px;margin:14px 0}.checkout-secure{text-align:center;color:#8b909b;font-size:.7rem;margin:13px 0}
+.checkout-order-button{width:100%;padding:14px;border:0;border-radius:6px;color:#fff;background:#101010;font-weight:700;font-size:.82rem}.checkout-order-button:hover{background:var(--navy)}.checkout-disclaimer{font-size:.68rem;color:#858895;text-align:center;line-height:1.55;margin:11px 0 0}
+.checkout-error{font-size:.75rem;color:#a63333;margin:10px 0;display:none}.checkout-error.show{display:block}
+.order-success-page{background:#faf9f6}.order-success-wrap{max-width:540px;margin:0 auto;padding:100px 22px;text-align:center}.order-success-icon{margin:auto;width:74px;height:74px;display:grid;place-items:center;border-radius:50%;background:#e5f5ea;color:#147b43;font-size:2.6rem}.order-success-wrap h1{font-family:'Playfair Display',Georgia,serif;font-size:2rem;color:#102b4d;margin:22px 0 12px}.order-success-wrap p{color:#626b78;line-height:1.75;font-size:.87rem}.order-success-receipt{border:1px solid #e3e3e3;background:#fff;border-radius:9px;padding:20px;margin:28px 0;text-align:left}.order-success-receipt .checkout-row{border-bottom:1px solid #f1f1f1}.order-success-wrap .btn{width:100%}
+@media(max-width:800px){.checkout-shell{grid-template-columns:1fr;gap:12px;padding:27px 18px 65px}.checkout-summary{position:static;order:2}.checkout-form{order:1}.checkout-block{margin-bottom:33px}.checkout-top-inner{padding:14px 18px}}
+@media(max-width:420px){.checkout-two{grid-template-columns:1fr}.checkout-order-item{grid-template-columns:53px 1fr;gap:9px}.checkout-order-item img{width:53px;height:68px}.checkout-order-price{grid-column:2}.checkout-top .checkout-brand{font-size:1rem}}
+
+
+.detail-media-panel{position:relative}.detail-stage{position:relative;border:1px solid #ebe8e1;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 15px 45px rgba(16,43,77,.05)}.detail-stage .detail-image{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform .45s ease;cursor:zoom-in}.detail-stage:hover .detail-image{transform:scale(1.04)}.detail-thumbs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}.detail-thumb{border:1px solid #ddd;background:#fff;border-radius:6px;padding:5px;overflow:hidden;text-align:center;font-size:.62rem;color:#666}.detail-thumb img{width:100%;aspect-ratio:1/1.1;object-fit:cover;border-radius:4px;margin-bottom:6px}.detail-thumb.active{border-color:var(--gold);box-shadow:0 6px 18px rgba(218,167,62,.18)}.detail-favorite,.detail-zoom{position:absolute;top:14px;z-index:2;border:0;background:#fff;border-radius:999px;box-shadow:0 10px 26px rgba(0,0,0,.12);padding:10px 13px;font-size:.8rem}.detail-favorite{left:14px;font-size:1.1rem}.detail-favorite.active{color:#b4233c}.detail-zoom{right:14px}.detail-topline{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}.detail-topline h1{margin-right:auto}.detail-kind{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;border:1px solid #d8d8d8;padding:8px 10px;border-radius:999px;color:#596373;white-space:nowrap}.size-guide-table>div{display:grid;grid-template-columns:1fr 1fr 1fr;padding:10px 0;border-bottom:1px solid #eee;font-size:.83rem}.size-guide-table>div:first-child{font-weight:700;color:#142f52}.mobile-buy-bar{display:none;position:fixed;left:14px;right:14px;bottom:14px;z-index:80;background:#fff;border:1px solid #e2e2e2;border-radius:14px;box-shadow:0 20px 40px rgba(0,0,0,.14);padding:12px 14px;align-items:center;justify-content:space-between;gap:10px}.mobile-buy-bar strong{display:block;font-size:.8rem}.mobile-buy-bar small{display:block;font-size:.73rem;color:#666}.zoom-dialog{width:min(900px,calc(100% - 24px))}.zoom-wrap{background:#f7f5f0;border-radius:8px;overflow:hidden}.zoom-wrap img{width:100%;max-height:75vh;object-fit:contain;background:#fff}.wishlist-btn{position:absolute;right:15px;top:15px;border:0;width:38px;height:38px;border-radius:50%;background:#fff;box-shadow:0 10px 25px rgba(0,0,0,.12);font-size:1rem;z-index:2}.wishlist-btn.active{color:#b4233c}.product-media .quick{bottom:15px;right:62px}.product-sub{font-size:.67rem;color:#6d7380;margin-top:5px}.voucher-box{padding:12px 0 6px}.voucher-box label{display:block;font-size:.73rem;font-weight:700;margin-bottom:8px}.voucher-inline{display:flex;gap:8px}.voucher-inline input{flex:1;min-width:0;padding:11px 12px;border:1px solid #d8d8d8;border-radius:5px}.voucher-inline button{border:0;background:var(--navy);color:#fff;border-radius:5px;padding:0 15px;font-weight:700}.success-actions{display:grid;gap:10px}.track-status{margin-top:16px;padding:14px;border:1px solid #e8e8e8;border-radius:8px;background:#fbfbfb}.timeline{margin-top:10px;display:grid;gap:10px}.timeline div{padding:10px 12px;border-left:3px solid #d7dce4;background:#fff}.timeline div.active{border-left-color:var(--gold);background:#fffaf0}.checkout-method input:checked + .checkout-method-mark{background:var(--navy);color:#fff}.checkout-method-mark{min-width:56px;display:inline-flex;justify-content:center;align-items:center;padding:8px 10px;border:1px solid #d6d6d8;border-radius:6px;font-size:.7rem;font-weight:700;text-transform:uppercase}.checkout-method{display:grid;grid-template-columns:auto auto 1fr auto;align-items:center;gap:12px}.checkout-order-item p{margin:4px 0 0;font-size:.75rem;color:#6c7280}.checkout-login button{border:0;background:none;color:var(--navy);text-decoration:underline;padding:0}.product-media.perfume-card{background:#fff}.product-media.perfume-card img{object-fit:contain;padding:10px}
+@media(max-width:900px){.detail-thumbs{grid-template-columns:repeat(4,minmax(70px,1fr))}}
+@media(max-width:640px){.detail-topline{flex-direction:column;gap:8px}.mobile-buy-bar.show{display:flex}.detail-thumbs{grid-template-columns:repeat(2,minmax(0,1fr))}.wishlist-btn{right:8px;top:8px}.product-media .quick{right:8px;bottom:50px}.detail-favorite,.detail-zoom{top:10px}.detail-favorite{left:10px}.detail-zoom{right:10px}.checkout-method{grid-template-columns:auto auto 1fr}.checkout-method strong{grid-column:3;justify-self:end}.success-actions .btn{width:100%}}
+
+
+/* THE SIGNATURE EDIT — luxury refinements */
+:root{--navy:#132337;--gold:#b78a45;--ink:#1c252c;--cream:#f7f5f1;--line:#e4ded5;--shadow:0 30px 75px rgba(11,23,39,.15)}
+body{background:var(--cream);letter-spacing:.006em}
+.container{width:min(1330px,calc(100% - 8vw))}
+header .nav{padding:22px 0;gap:24px}
+.brand .monogram{font-size:2.6rem;color:#e3c08a;letter-spacing:-.14em}
+.brand .brand-name{font-size:.6rem;letter-spacing:.3em}
+.navlinks button{font-size:.67rem;letter-spacing:.17em}
+.hero{isolation:isolate}
+.hero-inner .btn{background:#bc9454;border:1px solid #e0bb7d;color:#14191e;box-shadow:0 12px 36px #0006;padding:17px 32px;letter-spacing:.22em;border-radius:2px}
+.hero-inner .btn:hover{background:#e3bd7b;transform:translateY(-4px)}
+.intro{padding:115px 0 105px}
+.intro h2{font-weight:400;letter-spacing:-.02em;margin:23px 0 20px}
+.intro h2 em{font-weight:400;color:#82673e}
+.intro .eyebrow{letter-spacing:.34em}
+.intro p{max-width:700px;font-size:.89rem;line-height:2.1}
+.section-title{align-items:end;border-color:#d8cdbb;padding-bottom:24px;margin-bottom:28px}
+.section-title h2{font-size:clamp(2rem,3.4vw,3.35rem);letter-spacing:-.03em}
+.section-title p{font-size:.76rem;letter-spacing:.06em}
+.filters{margin:0 0 36px;gap:11px}
+.chip{border-radius:2px;background:transparent;padding:11px 18px;font-weight:600;letter-spacing:.06em;font-size:.7rem;transition:background .22s,border-color .22s,color .22s}
+.chip.active,.chip:hover{background:#15283c;border-color:#15283c;color:#f7f4ed}
+.product-grid{gap:58px 28px}
+.product{position:relative}
+.product-media{border-radius:3px;background:#e9e6e1;box-shadow:0 1px 1px #00000006}
+.product-media img{transition:transform .8s cubic-bezier(.17,.67,.18,1),filter .6s}
+.product:hover .product-media img{transform:scale(1.045)}
+.product-media .photo-label{top:17px;left:17px;background:#fcfaf5e8;color:#2e3944;letter-spacing:.19em;border:1px solid #ffffffaa;padding:10px 13px;font-size:.56rem}
+.product-media .quick{width:42px;height:42px;background:#fff;right:16px;bottom:16px}
+.wishlist-btn{top:17px;right:17px;width:42px;height:42px;font-size:1.28rem;transition:transform .2s}
+.wishlist-btn:hover{transform:scale(1.08)}
+.product-info{padding-top:21px}
+.product-info h3{font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;font-weight:500;letter-spacing:.005em;margin-bottom:7px}
+.product-sub{letter-spacing:.1em;text-transform:uppercase;font-size:.61rem}
+.price{font-weight:700;font-size:.94rem;margin-top:11px}
+.product-stars{margin-top:11px}
+.product .buy{border-radius:2px;letter-spacing:.14em;padding:14px;margin-top:19px}
+.product-media.perfume-card{background:#eee9e3}
+.product-media.perfume-card img{object-fit:cover;padding:0}
+.story{background:#132338;padding:105px 0}
+.story .container{gap:clamp(40px,6vw,95px)}
+.story h2{letter-spacing:-.02em}
+.story p{line-height:2.05}
+.story-visual img{border-radius:2px}
+.gallery-section{padding:100px 0 85px}
+.gallery-section h2{letter-spacing:-.025em}
+.gallery-item{border-radius:3px}
+footer{background:#0c1521;padding-top:80px}
+.footer-inner{gap:50px}
+.footer-inner .foot-brand{font-size:1.9rem}
+.footer-inner h4{font-size:.68rem;letter-spacing:.2em}
+.footer-inner button:hover{color:#e4bf79}
+.detail-page{background:#f9f8f5}
+.detail-header{background:rgba(255,255,255,.94);border-bottom:1px solid #e6e1d9}
+.detail-wrap{padding-top:45px}
+.product-layout{gap:clamp(36px,5vw,95px)}
+.detail-media-panel{position:relative;min-width:0}
+.detail-stage{border-radius:3px;border:1px solid #e6e0d6;background:#ebe7e0;box-shadow:0 25px 45px rgba(12,21,35,.08)}
+.detail-stage .detail-image{aspect-ratio:3/4;object-fit:cover;transition:transform .65s cubic-bezier(.21,.69,.13,1);max-width:none}
+.detail-stage:hover .detail-image{filter:contrast(1.025)}
+.detail-thumbs{grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin-top:14px}
+.detail-thumb{padding:7px 7px 10px;cursor:pointer;transition:border-color .2s,box-shadow .2s;letter-spacing:.035em}
+.detail-thumb.active{border-color:#b89153;box-shadow:0 3px 14px #a8803e1e}
+.thumb-window{display:block;aspect-ratio:1/1;overflow:hidden;background:#e9e6e0;border-radius:2px;margin-bottom:8px}
+.thumb-window img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;margin:0;max-width:none}
+.gallery-hint{font-size:.6rem;letter-spacing:.18em;color:#8e8b86;margin-top:12px;text-align:center}
+.gallery-hint span{padding:0 6px;color:#b78a45}
+.detail-topline{display:block}.detail-topline h1{font-weight:400;font-size:clamp(2rem,3.4vw,3.55rem);line-height:1.26;letter-spacing:-.02em;margin:16px 0}
+.detail-kind{display:inline-flex;margin-bottom:7px;border:1px solid #cfbfaa;color:#937348;font-size:.58rem;letter-spacing:.18em;padding:7px 12px}
+.detail-price{font-size:1.65rem;color:#182b40}
+.detail-tagline{line-height:2.05}
+.detail-zoom,.detail-favorite{border-radius:2px;background:#fffefaee;border:1px solid #efe9df}
+.size{transition:background .22s,border-color .22s}
+.size:hover{border-color:#a88650}
+.btn-dark{background:#132439;border-color:#132439}.btn-dark:hover{background:#253e56}
+.checkout-page{background:#f9f8f5}
+.checkout-top{box-shadow:0 4px 22px #17243908}
+.checkout-summary,.checkout-block{background:#fff;border-color:#e8e3dc;box-shadow:0 16px 40px #17243908;border-radius:4px}
+.checkout-order-button{background:#132439;border-radius:3px;letter-spacing:.1em;padding:16px}
+.checkout-order-button:hover{background:#253e56}
+.zoom-dialog{width:min(980px,calc(100% - 24px));max-height:95dvh}
+.zoom-dialog .dialog-body{padding:16px 23px 22px}
+.zoom-toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:14px;font-size:.75rem;letter-spacing:.06em;color:#5c5c61}
+.zoom-controls{display:flex;gap:7px;align-items:center}
+.zoom-controls button{display:grid;place-items:center;width:34px;height:34px;border:1px solid #dbd7ce;background:#fff;color:#192b3d;font-size:1.1rem;border-radius:3px}
+.zoom-controls button:disabled{opacity:.35;cursor:default}
+.zoom-controls span{min-width:54px;text-align:center;font-variant-numeric:tabular-nums}
+.zoom-wrap{height:min(69vh,720px);display:flex;justify-content:center;align-items:center;background:#e8e5df;overflow:hidden;touch-action:none;cursor:zoom-in;user-select:none}
+.zoom-wrap.zoomed{cursor:grab}.zoom-wrap.zoomed:active{cursor:grabbing}
+.zoom-wrap img{max-width:100%;width:auto;max-height:100%;height:auto;object-fit:contain;transition:transform .14s ease-out;pointer-events:none;will-change:transform}
+.checkout-summary h2,.checkout-block h2{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.02em}
+@media(max-width:900px){.container{width:min(100% - 34px,800px)}.product-grid{gap:34px 16px}}
+@media(max-width:640px){.intro{padding:75px 0 65px}.intro h2{font-size:2.08rem}.filters{gap:8px}.chip{padding:9px 12px;font-size:.62rem}.product-info h3{font-size:.9rem}.product-grid{gap:36px 13px}.product .buy{font-size:.59rem;letter-spacing:.055em}.product-media .quick{bottom:12px;right:10px;width:34px;height:34px}.wishlist-btn{top:10px;right:10px;width:34px;height:34px;font-size:1.05rem}.product-media .photo-label{left:8px;top:8px;padding:7px 8px;font-size:.48rem}.detail-thumbs{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.detail-thumb{padding:4px 4px 7px;font-size:.51rem}.detail-topline h1{font-size:2.15rem}.detail-wrap{padding-bottom:150px}.gallery-hint{font-size:.52rem}.zoom-dialog .dialog-body{padding:10px}.zoom-wrap{height:61vh}.zoom-toolbar{font-size:.65rem}.zoom-controls{gap:3px}.zoom-controls button{width:29px;height:29px}.zoom-controls span{min-width:42px}.mobile-buy-bar{border-radius:5px;box-shadow:0 12px 45px rgba(0,0,0,.19)}}
+@media print{body *{visibility:hidden!important}#orderSuccessPage,#orderSuccessPage *{visibility:visible!important}#orderSuccessPage{position:absolute;top:0;left:0;width:100%}.success-actions{display:none!important}.order-success-wrap{padding:15px!important}}
+
+
+.fragrance-editorial{background:#111e2c;color:#f5f1e8;padding:86px 0;overflow:hidden}
+.fragrance-inner{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(25px,6vw,94px);align-items:center}
+.fragrance-copy .eyebrow{color:#c6a573;letter-spacing:.26em}.fragrance-copy h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.7rem,4.2vw,4.7rem);font-weight:400;line-height:1.2;letter-spacing:-.03em;margin:22px 0}.fragrance-copy h2 em{color:#d5b684;font-weight:400}
+.fragrance-copy p{font-size:.9rem;color:#c3cbd1;line-height:2;max-width:460px}.fragrance-cta{margin-top:29px;border:1px solid #8e7655;color:#f9e2c1;background:transparent;padding:16px 18px;letter-spacing:.17em;font-size:.69rem;display:flex;gap:20px;align-items:center;justify-content:space-between;transition:background .25s}.fragrance-cta:hover{background:#334258}
+.fragrance-products{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:end}.fragrance-product{border:1px solid #fff2;background:#1f3040;cursor:pointer;text-align:left;padding:0 0 14px;min-width:0;transition:transform .3s,box-shadow .3s}.fragrance-product:hover{transform:translateY(-7px);box-shadow:0 18px 30px #0004}.fragrance-product:nth-child(2){margin-top:42px}.fragrance-product img{width:100%;aspect-ratio:4/5;object-fit:cover}.fragrance-product span{color:#e8decf;padding:14px 14px 0;display:block;font-size:.65rem;letter-spacing:.15em}
+.catalog-demo-note{font-size:.7rem;line-height:1.7;color:#7c7c7c;margin:44px 0 0}
+@media(max-width:720px){.fragrance-editorial{padding:56px 0}.fragrance-inner{grid-template-columns:1fr;gap:30px}.fragrance-copy h2{font-size:2.7rem}.fragrance-product:nth-child(2){margin-top:0}.fragrance-products{gap:9px}.fragrance-product span{font-size:.55rem;padding:10px 9px 0}.fragrance-cta{margin-top:20px}}
+
+
+/* Perfume is a bundled inclusion, not a purchasable product. */
+.fragrance-products .fragrance-product{cursor:default;pointer-events:none}
+.included-scent{margin-top:20px;display:flex;gap:17px;align-items:center;padding:15px;border:1px solid rgba(172,137,73,.36);border-radius:13px;background:linear-gradient(135deg,#fffdf8,#f6f1e8)}
+.included-scent img{width:83px;height:108px;object-fit:contain;border-radius:7px;flex-shrink:0}
+.included-scent strong{display:block;font-size:.86rem;color:#19324c;margin:7px 0}
+.included-scent p{font-size:.75rem;line-height:1.6;color:#68707c;margin:0}
+.included-eyebrow{letter-spacing:.16em;font-size:.61rem;font-weight:700;color:#a58248}
+@media(max-width:640px){.included-scent img{width:64px;height:86px}}
+</style>
+
+</head>
+
+<body>
+
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol><symbol id="i-bag" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="13" rx="2"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></symbol><symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v10h-7v-7h-4v7H3z"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></symbol><symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol><symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-4.5A8.5 8.5 0 1 1 20 11.5Z"/><path d="M9 8.5c-.6-.5-1.2.3-1.1 1.3.2 2.5 3.7 5.9 6 6.2.9.1 1.8-.7 1.4-1.2l-2-1c-.4-.2-.9.7-1.3.5-1.2-.7-2.2-1.7-2.8-2.8-.2-.4.6-.8.4-1.3Z"/></symbol></svg>
+
+<div id="home-page">
+
+<header><nav class="nav container" aria-label="Navigasi utama"><div class="navlinks"><button data-scroll="collection">Collection</button><button data-scroll="story">Our Story</button><button data-scroll="gallery">Editorial</button></div><a class="brand" href="#home" aria-label="Kembali ke halaman utama"><span class="monogram">ZM</span><span class="brand-name">ZAFEER × MYKONOS</span></a><div class="nav-actions"><button class="navicon" data-action="home" aria-label="Home"><img class="custom-icon" src="HOME.png" alt="" /></button><button class="navicon" data-action="search" aria-label="Cari produk"><img class="custom-icon" src="logo search.png" alt="" /></button><button class="navicon" data-action="cart" aria-label="Buka keranjang"><img class="custom-icon" src="logo keranjang.png" alt="" /><span class="count hidden" id="cartCount">0</span></button><button class="navicon" data-action="account" aria-label="Akun"><img class="custom-icon" src="logo profile.png" alt="" /></button><span class="verified-dot hidden" id="verifiedLabel">TERVERIFIKASI</span></div></nav></header>
+
+<section id="hero" class="hero"><div class="hero-images"><img class="hero-banner" src="display utama.png" alt="ZAFEER × MYKONOS — Special Collaboration, dua model bersama parfum" /></div><div class="hero-inner"><button class="btn btn-gold" data-scroll="collection">DISCOVER THE EDIT&nbsp; →</button></div><div class="scroll-note">Scroll to discover ↓</div></section>
+
+<section class="intro container reveal"><div class="eyebrow kicker">An Exclusive Collaboration · Ramadan Edition</div><h2>Where Elegance <em>Meets Identity.</em></h2><p>Siluet ZAFEER yang terkurasi bertemu karakter aroma MYKONOS. Temukan perpaduan busana dan wewangian yang dirancang untuk meninggalkan kesan berkelas.</p></section>
+
+<main id="collection" class="catalog container"><div class="section-title reveal"><div><span class="eyebrow gold">The Signature Edit / 2026</span><h2>Discover the Collection</h2></div><p>12 pilihan busana · Setiap pembelian sudah termasuk parfum MYKONOS</p></div><div class="filters reveal"><button class="chip active" data-filter="all">Semua Koleksi</button><button class="chip" data-filter="Imperium">With Imperium</button><button class="chip" data-filter="Reflection">With Reflection</button><button class="chip" data-filter="wishlist">Favorit</button></div><div id="productGrid" class="product-grid"></div><p class="catalog-demo-note">* Harga, ukuran, ketersediaan, dan ongkir di website ini merupakan data contoh. Konfirmasi dengan penjual sebelum digunakan untuk penjualan nyata.</p></main>
+
+<section class="fragrance-editorial" aria-labelledby="fragranceTitle">
+<div class="container fragrance-inner">
+<div class="fragrance-copy"><span class="eyebrow">SCENT AS A SIGNATURE</span><h2 id="fragranceTitle">The Final <em>Signature.</em></h2><p>Setiap busana ZAFEER dalam koleksi ini sudah termasuk satu parfum MYKONOS yang dipasangkan sesuai pilihan produk. Imperium atau Reflection — tanpa pembelian parfum terpisah.</p><button class="fragrance-cta" data-scroll="collection">EXPLORE THE OUTFITS <span>↗</span></button></div>
+<div class="fragrance-products"><div class="fragrance-product" aria-label="Parfum MYKONOS Imperium sudah termasuk dalam paket busana"><img src="parfum-imperium.png" alt="Mykonos Imperium Ramadan Edition"><span>01 — IMPERIUM · INCLUDED</span></div><div class="fragrance-product" aria-label="Parfum MYKONOS Reflection sudah termasuk dalam paket busana"><img src="parfum-reflection.png" alt="Mykonos Reflection Ramadan Edition"><span>02 — REFLECTION · INCLUDED</span></div></div>
+</div></section>
+<section id="story" class="story"><div class="container"><div class="story-visual reveal"><img id="story1" alt="Fashion Zafeer dan parfum Mykonos" loading="lazy"/><img id="story2" alt="Koleksi spesial Zafeer Mykonos" loading="lazy"/></div><div class="reveal"><span class="eyebrow gold">The House of Signature</span><h2>Crafted to Leave<br/><em>an Impression.</em></h2><p>Keanggunan bukan sekadar apa yang dikenakan, melainkan kesan yang tertinggal. Setiap pilihan busana dalam koleksi ini dipasangkan dengan karakter aroma Imperium atau Reflection.</p><p>Dirancang untuk momen spesial, perayaan, dan setiap hari ketika Anda ingin tampil berkelas.</p><div class="line"></div></div></div></section>
+
+<section id="gallery" class="gallery-section"><div class="container"><span class="eyebrow gold">A Closer Look</span><h2>Details of Distinction</h2><p class="helper">A closer look at the silhouettes, stories, and scents.</p></div><div class="gallery-viewport" id="galleryViewport"><div class="gallery-track" id="galleryTrack"></div></div></section>
+
+<footer><div class="container"><div class="footer-inner"><div><div class="foot-brand">ZAFEER <span class="gold">×</span> MYKONOS</div><p>Special Collaboration.<br/>Timeless elegance in every look and every scent.</p></div><div><h4>Explore</h4><button data-scroll="collection">Shop Collection</button><button data-scroll="story">Our Story</button><button data-scroll="gallery">Editorial</button></div><div><h4>Customer Care</h4><button data-action="cart">My Shopping Bag</button><button data-action="account">My Account</button><button data-action="track-order">Lacak Pesanan Demo</button><button data-action="support">WhatsApp Customer Service</button></div></div><div class="copyright"><span>© 2026 ZAFEER × MYKONOS. Special Collaboration.</span><span>Concept storefront · Demo transaksi dan ulasan</span></div></div></footer>
+
+</div>
+
+<div id="detailPage" class="detail-page"><div class="detail-header"><div class="container detail-nav"><button class="back" data-action="home"><svg class="icon"><use href="#i-arrow"/></svg> Kembali</button><button class="mark" data-action="home">ZAFEER <span class="gold">×</span> MYKONOS</button><div class="rhs"><button class="navicon" data-action="search" aria-label="Cari"><img class="custom-icon" src="logo search.png" alt="" /></button><button class="navicon" data-action="cart" aria-label="Keranjang"><img class="custom-icon" src="logo keranjang.png" alt="" /></button><button class="navicon" data-action="account" aria-label="Akun"><img class="custom-icon" src="logo profile.png" alt="" /></button></div></div></div><div class="container detail-wrap"><div class="product-layout"><div class="detail-media-panel"><button class="detail-favorite" id="detailFavorite" aria-label="Simpan ke favorit">♡</button><button class="detail-zoom" id="openImageZoom" aria-label="Perbesar foto">Zoom</button><div class="detail-stage"><img class="detail-image" id="detailPhoto" alt="Foto produk" /></div><div class="detail-thumbs" id="detailThumbs" aria-label="Pilihan tampilan foto"></div><div class="gallery-hint">SELECT A VIEW <span>·</span> CLICK IMAGE TO EXPLORE</div><div class="included-scent"><img id="includedPerfumePhoto" alt="Parfum MYKONOS yang termasuk dalam paket"/><div><span class="included-eyebrow">COMPLIMENTARY SCENT</span><strong id="includedPerfumeName">MYKONOS</strong><p>Satu parfum sudah termasuk dalam harga paket busana ini. Tidak dijual terpisah.</p></div></div></div><div class="detail-right"><span class="stock">● Koleksi Tersedia</span><div class="detail-topline"><h1 id="detailName"></h1><span class="detail-kind" id="detailKind">Busana</span></div><div class="rating-line"><span class="starss">★★★★★</span><span>5.0 / 5.0</span><span class="muted">· 500 ulasan demo</span></div><div class="helper" style="margin-top:9px">1k+ terjual (data simulasi)</div><div class="detail-price" id="detailPrice">Rp 500.000</div><p class="detail-tagline" id="detailTagline"></p><div id="sizeSection"><div class="section-small" style="display:flex;justify-content:space-between;align-items:center;gap:10px"><span>Pilih Ukuran <span class="muted" style="font-weight:400">— wajib dipilih</span></span><button class="text-btn" type="button" id="openSizeGuide">Size Guide</button></div><div class="size-grid" id="sizeGrid"></div></div><div class="qty"><button id="qtyMinus" aria-label="Kurangi jumlah">−</button><span id="qtyValue">1</span><button id="qtyPlus" aria-label="Tambah jumlah">+</button></div><div class="detail-buttons"><button class="btn btn-outline btn-full" id="addCart">+ Tambah ke Keranjang</button><button class="btn btn-dark btn-full" id="buyNow">Beli Sekarang</button></div><div class="info-box"><h4>Pengiriman</h4><div class="info-row"><span>Dikirim ke:</span><select id="shippingArea" aria-label="Pilih area pengiriman"><option value="">Pilih Area</option><option>Jabodetabek</option><option>Jawa Barat</option><option>Jawa Tengah & DIY</option><option>Jawa Timur</option><option>Sumatra</option><option>Kalimantan</option><option>Sulawesi</option><option>Bali & Nusa Tenggara</option><option>Maluku & Papua</option></select></div><div class="info-row"><span>Berat:</span><strong id="detailWeight">1.400 g</strong></div><div class="helper" style="margin-top:12px" id="shippingNote">Dikirim dalam 7 hari setelah pembayaran dikonfirmasi. Ongkir belum dihitung dalam demo.</div></div></div></div><div class="below"><section><h2 class="block-title">Deskripsi Produk</h2><p id="descriptionBrief" class="description"></p><button id="showDescription" class="btn btn-outline" style="margin:10px 0 15px">Tampilkan Deskripsi Lengkap ↓</button><div id="descriptionFull" class="description hidden"></div></section><section><div class="review-header"><div><h2 class="block-title" style="margin-bottom:4px">Ulasan Pelanggan</h2><div class="helper">★★★★★ 5.0 · contoh ulasan demonstrasi</div></div></div><div class="helper" style="padding:12px;background:#f1eee8;margin-bottom:12px">Ulasan berikut adalah <strong>konten demonstrasi</strong>, bukan testimoni pembeli terverifikasi.</div><div id="reviews"></div><button id="moreReviews" class="btn btn-outline btn-full">Tampilkan 15 Komentar Berikutnya</button></section></div></div><div class="mobile-buy-bar" id="mobileBuyBar"><div><strong id="mobileBuyName">Produk</strong><small id="mobileBuyPrice">Rp 500.000</small></div><button class="btn btn-dark" id="mobileBuyNow">Beli Sekarang</button></div></div>
+
+
+<section id="checkoutPage" class="checkout-page" aria-label="Halaman checkout">
+  <div class="checkout-top"><div class="checkout-top-inner"><button class="checkout-back" data-action="back-to-shopping">← Kembali Belanja</button><div class="checkout-brand">ZAFEER <span class="gold">×</span> MYKONOS</div><span style="font-size:.73rem;color:#7e8490">Checkout Aman · Demo</span></div></div>
+  <div class="checkout-shell">
+    <form id="checkoutForm" class="checkout-form">
+      <div class="checkout-block"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><h2 style="margin:0">Detail Alamat</h2><button type="button" class="btn btn-outline" id="saveAddressButton" style="padding:10px 14px;font-size:.65rem">Simpan Alamat</button></div><p class="checkout-login">Sudah memiliki akun? <button type="button" data-action="checkout-login">Login</button></p>
+        <div class="checkout-fields">
+          <div class="checkout-field"><label for="orderEmail">Alamat Email <span class="optional">(opsional)</span></label><input type="email" id="orderEmail" autocomplete="email" placeholder="Alamat Email (opsional)"><small>Detail pesanan ditampilkan di situs ini, tidak dikirim melalui email.</small></div>
+          <div class="checkout-field"><label for="orderName">Nama Lengkap Penerima</label><input id="orderName" required maxlength="100" autocomplete="name" placeholder="Nama Lengkap Penerima"></div>
+          <div class="checkout-field"><label for="orderPhone">Nomor HP Penerima</label><input id="orderPhone" required type="tel" autocomplete="tel" minlength="9" maxlength="20" pattern="[0-9+() .-]{9,20}" placeholder="Contoh: 081234567890"></div>
+          <div class="checkout-field"><label for="orderCountry">Negara</label><select id="orderCountry" required><option value="Indonesia">Indonesia</option></select></div>
+          <div class="checkout-two"><div class="checkout-field"><label for="orderProvince">Provinsi</label><input id="orderProvince" required placeholder="Provinsi" autocomplete="address-level1"></div><div class="checkout-field"><label for="orderCity">Kota / Kabupaten</label><input id="orderCity" required placeholder="Kota atau Kabupaten" autocomplete="address-level2"></div></div>
+          <div class="checkout-two"><div class="checkout-field"><label for="orderDistrict">Kecamatan</label><input id="orderDistrict" required placeholder="Kecamatan"></div><div class="checkout-field"><label for="orderPostal">Kode Pos</label><input id="orderPostal" required inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="5 digit kode pos" autocomplete="postal-code"></div></div>
+          <div class="checkout-field"><label for="orderAddress">Detail Alamat</label><textarea id="orderAddress" required maxlength="250" autocomplete="street-address" placeholder="Jalan, nomor rumah, RT/RW, kelurahan, patokan alamat"></textarea><small>Maksimal 250 karakter.</small></div>
+        </div>
+      </div>
+      <div class="checkout-block"><h2>Tambahkan Catatan</h2><p class="checkout-help">Silakan isi ukuran produk hadiah yang Anda inginkan apabila mengikuti program The Zafeer Privilege (opsional). Ketentuan promo dan ketersediaan hadiah perlu dikonfirmasi penjual.</p><div class="checkout-field"><label for="orderNote">Catatan Pesanan <span class="optional">(opsional)</span></label><textarea id="orderNote" maxlength="500" placeholder="Ketik catatan atau ukuran hadiah yang diinginkan"></textarea></div></div>
+      <div class="checkout-block"><h2>Metode Pengiriman</h2><p class="checkout-help">Pilihan di bawah merupakan tarif simulasi. Biaya dan ketersediaan kurir sebenarnya belum terhubung.</p><div class="checkout-methods"><label class="checkout-method"><input type="radio" name="delivery" value="regular" checked><span class="checkout-method-text">Reguler <span class="checkout-method-note">· Estimasi 3–7 hari</span></span><strong>Rp 18.000</strong></label><label class="checkout-method"><input type="radio" name="delivery" value="express"><span class="checkout-method-text">Ekspres <span class="checkout-method-note">· Estimasi 1–3 hari</span></span><strong>Rp 35.000</strong></label></div></div>
+      <div class="checkout-block"><h2>Metode Pembayaran</h2><p class="checkout-help">Pilih satu metode. Ini hanya simulasi checkout; tidak ada transfer, QR pembayaran, atau pemotongan saldo sungguhan.</p><div class="checkout-methods" id="paymentMethods">
+        <label class="checkout-method"><input type="radio" name="payment" value="BCA" required><span class="checkout-method-mark">BCA</span><span class="checkout-method-text">Bank BCA <span class="checkout-method-note">· Transfer bank (demo)</span></span></label>
+        <label class="checkout-method"><input type="radio" name="payment" value="BNI"><span class="checkout-method-mark">BNI</span><span class="checkout-method-text">Bank BNI <span class="checkout-method-note">· Transfer bank (demo)</span></span></label>
+        <label class="checkout-method"><input type="radio" name="payment" value="Mandiri" checked><span class="checkout-method-mark">mandiri</span><span class="checkout-method-text">Bank Mandiri <span class="checkout-method-note">· Transfer bank (demo)</span></span></label>
+        <label class="checkout-method"><input type="radio" name="payment" value="BRI"><span class="checkout-method-mark">BRI</span><span class="checkout-method-text">Bank BRI <span class="checkout-method-note">· Transfer bank (demo)</span></span></label>
+        <label class="checkout-method"><input type="radio" name="payment" value="CIMB Niaga"><span class="checkout-method-mark">CIMB</span><span class="checkout-method-text">CIMB Niaga <span class="checkout-method-note">· Transfer bank (demo)</span></span></label>
+        <label class="checkout-method"><input type="radio" name="payment" value="QRIS"><span class="checkout-method-mark">QRIS</span><span class="checkout-method-text">QRIS <span class="checkout-method-note">· QR pembayaran (demo)</span></span></label>
+        <label class="checkout-method"><input type="radio" name="payment" value="BTN"><span class="checkout-method-mark">BTN</span><span class="checkout-method-text">Bank BTN <span class="checkout-method-note">· Transfer bank (demo)</span></span></label>
+      </div></div>
+    </form>
+    <aside class="checkout-summary"><h2>Ringkasan Pesanan</h2><div id="checkoutItems"></div><div class="voucher-box"><label for="voucherInput">Voucher Promo</label><div class="voucher-inline"><input id="voucherInput" placeholder="Contoh: ZAFEER10" /><button type="button" id="applyVoucher">Pakai</button></div><small class="helper">Coba kode demo: ZAFEER10 atau MYKONOS50</small></div><div class="checkout-row"><span>Subtotal</span><strong id="checkoutSubtotal">Rp 0</strong></div><div class="checkout-row"><span>Pengiriman (simulasi)</span><span id="checkoutShipping">Rp 18.000</span></div><div class="checkout-row hidden" id="discountRow"><span>Diskon</span><span id="checkoutDiscount">- Rp 0</span></div><div class="checkout-row total"><span>Total Pembayaran</span><span id="checkoutTotal">Rp 0</span></div><p class="checkout-secure">♧ Transaksi simulasi · Tidak memproses pembayaran</p><div class="checkout-alert">Metode bank dan QRIS hanya pilihan tampilan. Belum ada integrasi payment gateway, rekening tujuan, maupun pelacakan pengiriman.</div><p id="checkoutError" class="checkout-error" role="alert"></p><button type="submit" form="checkoutForm" class="checkout-order-button">Order Sekarang</button><p class="checkout-disclaimer">Dengan melanjutkan, Anda membuat pesanan demonstrasi. Tidak ada transaksi keuangan yang terjadi.</p></aside>
+  </div>
+</section>
+<section id="orderSuccessPage" class="order-success-page" aria-label="Konfirmasi pesanan"><div class="order-success-wrap"><div class="order-success-icon">✓</div><h1>Pesanan Berhasil Dibuat!</h1><p>Pesanan simulasi Anda sudah tercatat di halaman ini. <strong>Pembayaran belum dilakukan atau diverifikasi oleh bank.</strong></p><div class="order-success-receipt" id="orderSuccessReceipt"></div><div class="success-actions"><button class="btn btn-outline btn-full" id="printReceipt">Cetak Ringkasan</button><button class="btn btn-outline btn-full" id="openTrackFromSuccess">Lacak Pesanan Demo</button><button class="btn btn-dark btn-full" data-action="home">Kembali ke Home</button></div><p class="checkout-disclaimer">Ini merupakan demonstrasi alur checkout, bukan bukti pembayaran.</p></div></section>
+
+<div class="dialog" id="sizeGuideDialog" role="dialog" aria-modal="true" aria-labelledby="sizeGuideTitle"><div class="dialog-head"><h3 id="sizeGuideTitle">Panduan Ukuran</h3><button class="close" data-action="close-size-guide" aria-label="Tutup"><svg class="icon"><use href="#i-x"/></svg></button></div><div class="dialog-body"><p class="helper">Angka berikut hanya contoh tampilan, bukan ukuran resmi produk. Konfirmasi tabel ukuran sebenarnya ke penjual sebelum digunakan.</p><div class="size-guide-table"><div><strong>Ukuran</strong><strong>Lebar Dada</strong><strong>Panjang</strong></div><div><span>S</span><span>50 cm</span><span>135 cm</span></div><div><span>M</span><span>53 cm</span><span>138 cm</span></div><div><span>L</span><span>56 cm</span><span>140 cm</span></div><div><span>XL</span><span>59 cm</span><span>142 cm</span></div><div><span>XXL</span><span>62 cm</span><span>144 cm</span></div><div><span>XXXL</span><span>65 cm</span><span>146 cm</span></div></div></div></div>
+<div class="dialog zoom-dialog" id="zoomDialog" role="dialog" aria-modal="true" aria-labelledby="zoomTitle"><div class="dialog-head"><h3 id="zoomTitle">Foto Produk</h3><button class="close" data-action="close-zoom" aria-label="Tutup"><svg class="icon"><use href="#i-x"/></svg></button></div><div class="dialog-body"><div class="zoom-toolbar"><span id="zoomProductLabel">Product Image</span><div class="zoom-controls"><button type="button" id="zoomOut" aria-label="Perkecil foto">−</button><span id="zoomLevel">100%</span><button type="button" id="zoomIn" aria-label="Perbesar foto">+</button><button type="button" id="zoomReset" aria-label="Atur ulang zoom">↺</button></div></div><div class="zoom-wrap" id="zoomWrap"><img id="zoomImage" alt="Foto produk diperbesar" draggable="false" /></div><p class="helper" id="zoomCaption" style="margin-top:14px">Gunakan + / − atau gulir untuk zoom, lalu geser foto saat diperbesar.</p></div></div>
+<div class="dialog" id="trackDialog" role="dialog" aria-modal="true" aria-labelledby="trackTitle"><div class="dialog-head"><h3 id="trackTitle">Lacak Pesanan Demo</h3><button class="close" data-action="close-track" aria-label="Tutup"><svg class="icon"><use href="#i-x"/></svg></button></div><div class="dialog-body"><form id="trackForm"><div class="field"><label for="trackInput">Nomor Pesanan</label><input id="trackInput" placeholder="Contoh: ZM-123456" required /></div><button type="submit" class="btn btn-dark btn-full">Lacak Pesanan</button></form><div id="trackResult" class="helper" style="margin-top:18px"></div></div></div>
+<div class="overlay" id="overlay"></div>
+
+<div class="dialog" id="accountDialog" role="dialog" aria-modal="true" aria-labelledby="accountTitle"><div class="dialog-head"><h3 id="accountTitle">Akun Saya</h3><button class="close" data-action="close" aria-label="Tutup"><svg class="icon"><use href="#i-x"/></svg></button></div><div class="dialog-body" id="accountBody"></div></div>
+
+<div class="dialog searchdialog" id="searchDialog" role="dialog" aria-modal="true" aria-labelledby="searchTitle"><div class="dialog-head"><h3 id="searchTitle">Cari Koleksi</h3><button class="close" data-action="close" aria-label="Tutup"><svg class="icon"><use href="#i-x"/></svg></button></div><div class="dialog-body"><div class="searchbox"><img class="custom-icon" src="logo search.png" alt="" /><input id="searchInput" type="search" placeholder="Cari jubah, koko, Imperium, Reflection..." autocomplete="off" aria-label="Cari produk"/></div><div id="searchSuggestions"><div class="helper" style="margin-top:17px">Pencarian Populer</div><div class="suggestions"><button data-term="Jubah">Jubah</button><button data-term="Koko">Koko</button><button data-term="Omer">Omer</button><button data-term="Ogren">Ogren</button><button data-term="Imperium">Imperium</button><button data-term="Reflection">Reflection</button></div></div><h4 style="margin:26px 0 12px;font-size:.85rem" id="searchResultTitle">Rekomendasi Produk</h4><div id="searchResults" class="results-list"></div></div></div>
+
+<div class="drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><div class="drawer-head"><h3 id="cartTitle">Keranjang Saya</h3><button class="close" data-action="close" aria-label="Tutup"><svg class="icon"><use href="#i-x"/></svg></button></div><div class="drawer-content" id="cartContent"></div><div class="cart-footer" id="cartFooter"></div></div>
+
+<button class="wa-float" id="whatsappButton" data-action="support" aria-label="WhatsApp Customer Service" title="Hubungi Customer Service"><img class="custom-icon" src="whatshapp.png" alt="" /></button><div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+
+'use strict';
+
+const PRODUCTS=[
+{id:1,name:'Jubah Okan',scent:'Imperium',image:'look-01.png',kind:'apparel',price:500000},
+{id:2,name:'Jubah Omer LS N',scent:'Reflection',image:'look-02.png',kind:'apparel',price:500000},
+{id:3,name:'Jubah Ozlem',scent:'Reflection',image:'look-03.png',kind:'apparel',price:500000},
+{id:4,name:'Jubah Syimphony',scent:'Imperium',image:'look-04.png',kind:'apparel',price:500000},
+{id:5,name:'Koko Omer',scent:'Reflection',image:'look-05.png',kind:'apparel',price:500000},
+{id:6,name:'Jubah Emre',scent:'Reflection',image:'look-06.png',kind:'apparel',price:500000},
+{id:7,name:'Jubah Maula N',scent:'Imperium',image:'look-07.png',kind:'apparel',price:500000},
+{id:8,name:'Jubah Ogren',scent:'Imperium',image:'look-08.png',kind:'apparel',price:500000},
+{id:9,name:'Jubah Ogren',scent:'Reflection',image:'look-09.png',kind:'apparel',price:500000},
+{id:10,name:'Basic Eksclusive',scent:'Imperium',image:'look-10.png',kind:'apparel',price:500000},
+{id:11,name:'Jubah Omer Short Sleeve',scent:'Imperium',image:'look-11.png',kind:'apparel',price:500000},
+{id:12,name:'Jubah Demre',scent:'Reflection',image:'look-12.png',kind:'apparel',price:500000}
+];
+
+const PERFUME_IMAGES=['scent-13.jpg','scent-14.jpg','scent-15.jpg','scent-16.jpg','scent-17.jpg','scent-18.jpg'];
+
+const PRICE=500000;const SIZES=['S','M','L','XL','XXL','XXXL'];
+
+const NOTES={Imperium:{character:'Fresh, tropical, citrusy; manis lembut dan bersih.',top:'Lime, bergamot, mandarin orange, tropical fruits',middle:'Sicilian orange, ginger, jasmine, coconut water',base:'Patchouli, white musk, tonka bean',experience:'Nuansa tropis yang segar dan elegan, cocok untuk momen spesial maupun aktivitas sehari-hari.',bottle:'Mykonos Imperium Extrait de Parfum, 100 ml.'},Reflection:{character:'Fresh, aquatic, citrusy, woody-musky.',top:'Grapefruit, ginger, bergamot',middle:'Marine notes, cardamom, lily of the valley',base:'Musk, patchouli, amber, ambroxan',experience:'Aroma segar bernuansa laut dengan akhir hangat dan lembut, cocok untuk penggunaan harian hingga acara semi-formal.',bottle:'Mykonos Reflection Extrait de Parfum; tersedia dalam lini 50 ml dan 100 ml. Ukuran bonus pada paket ini perlu dikonfirmasi penjual.'}};
+
+const rupiah=n=>'Rp '+n.toLocaleString('id-ID');
+
+const $=s=>document.querySelector(s);
+
+let activeProduct=null,chosenSize='',quantity=1,reviewShown=15,filter='all',accountMode='login',toastTimer,activeGalleryIndex=0,appliedVoucher='',voucherDiscount=0;
+let checkoutRows=[],latestDemoOrder=null,checkoutFromCart=false;
+
+let cart=read('zm_cart',[]),isVerified=read('zm_verified',false),currentUser=read('zm_user',''),wishlist=read('zm_wishlist',[]),savedAddress=read('zm_saved_address',null),demoOrders=read('zm_orders',[]);
+// Hanya busana yang dapat dijual; keluarkan produk parfum mandiri dari data lama.
+cart=Array.isArray(cart)?cart.filter(row=>PRODUCTS.some(p=>p.id===Number(row.id))):[];
+wishlist=Array.isArray(wishlist)?wishlist.filter(id=>PRODUCTS.some(p=>p.id===Number(id))):[];
+
+function read(key,fallback){try{let raw=localStorage.getItem(key);return raw===null?fallback:JSON.parse(raw)}catch{return fallback}}
+
+function save(){try{localStorage.setItem('zm_cart',JSON.stringify(cart));localStorage.setItem('zm_verified',JSON.stringify(isVerified));localStorage.setItem('zm_user',JSON.stringify(currentUser));localStorage.setItem('zm_wishlist',JSON.stringify(wishlist));localStorage.setItem('zm_saved_address',JSON.stringify(savedAddress));localStorage.setItem('zm_orders',JSON.stringify(demoOrders))}catch{}}
+
+function notify(t){const el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2800)}
+
+const ico=(name)=>name==='bag'?'<img class="custom-icon" src="logo keranjang.png" alt="" />':'<svg class="icon"><use href="#i-'+name+'"/></svg>';
+const getPrice=p=>p.price||PRICE;
+const productDisplayName=p=>p.kind==='perfume'?p.name:p.name+' × '+p.scent;
+const isWish=id=>wishlist.includes(Number(id));
+const PROMOS={ZAFEER10:{type:'percent',value:10},MYKONOS50:{type:'fixed',value:50000}};
+function galleryFor(p){
+  if(p.kind==='perfume')return [{src:p.image,label:'Original',scale:1,origin:'50% 50%'}];
+  return [
+    {src:p.image,label:'Full Look',scale:1,origin:'50% 50%'},
+    {src:p.image,label:'Upper Detail',scale:1.72,origin:'50% 14%'},
+    {src:p.image,label:'Mid Detail',scale:1.72,origin:'50% 47%'},
+    {src:p.image,label:'Lower Detail',scale:1.72,origin:'50% 87%'}
+  ];
+}
+function toggleWishlist(id){id=Number(id);wishlist=wishlist.includes(id)?wishlist.filter(x=>x!==id):[...wishlist,id];save();renderProducts();syncWishlistDetail();notify(wishlist.includes(id)?'Produk disimpan ke favorit.':'Produk dihapus dari favorit.');}
+function syncWishlistDetail(){const btn=$('#detailFavorite');if(!btn||!activeProduct)return;btn.classList.toggle('active',isWish(activeProduct.id));btn.textContent=isWish(activeProduct.id)?'♥':'♡';}
+function applyPhotoView(view){
+  const img=$('#detailPhoto'); if(!img)return;
+  img.src=view.src;
+  img.style.objectPosition='center center';
+  img.style.transformOrigin=view.origin||'50% 50%';
+  img.style.transform='scale('+(view.scale||1)+')';
+  img.dataset.caption=view.label||'';
+  $('#zoomImage').src=view.src;
+  $('#zoomCaption').textContent=(activeProduct?productDisplayName(activeProduct)+' · ':'')+(view.label||'Original');
+}
+function renderDetailThumbs(p){
+  const data=galleryFor(p),wrap=$('#detailThumbs');
+  wrap.innerHTML=data.map((item,i)=>`<button type="button" class="detail-thumb ${i===0?'active':''}" data-thumb-index="${i}" aria-pressed="${i===0}"><span class="thumb-window"><img src="${item.src}" style="transform:scale(${item.scale||1});transform-origin:${item.origin||'50% 50%'}" alt="${p.name} ${item.label}"></span><span>${item.label}</span></button>`).join('');
+  activeGalleryIndex=0;applyPhotoView(data[0]);
+}
+function openZoom(){closePanels();$('#overlay').classList.add('open');document.body.classList.add('lock');$('#zoomDialog').classList.add('open');$('#zoomProductLabel').textContent=activeProduct?productDisplayName(activeProduct):'Product Image';resetZoom()}
+function openSimpleDialog(id){closePanels();$('#overlay').classList.add('open');document.body.classList.add('lock');$(id).classList.add('open')}
+function closeSimpleDialogs(){$('#sizeGuideDialog').classList.remove('open');$('#zoomDialog').classList.remove('open');$('#trackDialog').classList.remove('open')}
+function addressValue(id){return document.getElementById(id)?.value?.trim()||''}
+function saveAddressDraft(){savedAddress={email:addressValue('orderEmail'),name:addressValue('orderName'),phone:addressValue('orderPhone'),country:addressValue('orderCountry'),province:addressValue('orderProvince'),city:addressValue('orderCity'),district:addressValue('orderDistrict'),postal:addressValue('orderPostal'),address:addressValue('orderAddress'),note:addressValue('orderNote')};save();notify('Alamat berhasil disimpan di browser ini.');}
+function fillSavedAddress(){if(!savedAddress)return;const map={orderEmail:'email',orderName:'name',orderPhone:'phone',orderCountry:'country',orderProvince:'province',orderCity:'city',orderDistrict:'district',orderPostal:'postal',orderAddress:'address',orderNote:'note'};for(const [id,key] of Object.entries(map)){const el=document.getElementById(id);if(el&&savedAddress[key])el.value=savedAddress[key];}}
+function applyVoucherCode(){const code=($('#voucherInput')?.value||'').trim().toUpperCase();appliedVoucher=code;updateCheckoutTotal();if(!code){notify('Voucher direset.');return}if(voucherDiscount>0)notify('Voucher '+code+' berhasil dipakai.');else notify('Kode voucher belum tersedia.');}
+function openTrackDialog(prefill=''){openSimpleDialog('#trackDialog');$('#trackInput').value=prefill;$('#trackResult').innerHTML='';}
+function trackOrder(id){const order=demoOrders.find(o=>o.id===id);if(!order)return null;return order;}
+
+
+function allCards(){return PRODUCTS.filter(p=>filter==='all'||(filter==='wishlist'&&isWish(p.id))||p.scent===filter)}
+
+function card(p,i){const heart=isWish(p.id)?'♥':'♡';const label=p.kind==='perfume'?'MYKONOS PERFUME':'Z × M COLLECTION';const mediaClass=p.kind==='perfume'?'product-media perfume-card':'product-media';const sub='Parfum MYKONOS sudah termasuk';return `<article class="product" style="animation-delay:${Math.min(i*35,300)}ms"><div class="${mediaClass}" data-product="${p.id}" tabindex="0" role="button" aria-label="Lihat ${p.name} × ${p.scent}"><img src="${p.image}" alt="${p.name} dipadukan parfum Mykonos ${p.scent}" loading="${i<3?'eager':'lazy'}"><span class="photo-label">${label}</span><button class="wishlist-btn ${isWish(p.id)?'active':''}" data-wishlist="${p.id}" aria-label="Favorit">${heart}</button><button class="quick" data-product="${p.id}" aria-label="Lihat detail ${p.name}">${ico('plus')}</button></div><div class="product-info"><div><h3>${productDisplayName(p)}</h3><div class="product-sub">${sub}</div><div class="price">${rupiah(getPrice(p))}</div><div class="product-stars">★★★★★ <span>5.0 · Demo</span></div></div></div><button class="btn btn-dark buy" data-product="${p.id}">Lihat Detail & Beli</button></article>`}
+
+function renderProducts(){const list=allCards();$('#productGrid').innerHTML=list.length?list.map(card).join(''):'<div class="empty-results">Belum ada produk favorit. Tekan ikon hati pada koleksi yang kamu suka.</div>';document.querySelectorAll('[data-filter]').forEach(el=>el.classList.toggle('active',el.dataset.filter===filter))}
+
+function renderSearch(){const q=$('#searchInput').value.toLocaleLowerCase('id').trim();const found=q?PRODUCTS.filter(prod=>(prod.name+' '+prod.scent+' '+prod.kind).toLocaleLowerCase('id').includes(q)):PRODUCTS.slice(0,10);$('#searchResultTitle').textContent=q?'Hasil Pencarian ('+found.length+')':'Koleksi yang Mungkin Kamu Suka';$('#searchSuggestions').classList.toggle('hidden',!!q);$('#searchResults').innerHTML=found.length?found.map(prod=>`<div class="result-card" role="button" tabindex="0" data-product="${prod.id}"><img src="${prod.image}" alt="${prod.name}" loading="lazy"><strong>${prod.name} × ${prod.scent}</strong><small>${rupiah(getPrice(prod))}</small></div>`).join(''):'<div class="empty-results">Produk tidak ditemukan. Coba kata kunci lain.</div>'}
+
+function getProduct(id){return PRODUCTS.find(p=>p.id===Number(id))}
+
+function openProduct(id){closePanels();location.hash='produk-'+id;route()}
+
+function route(){
+  const hash=location.hash;
+  $('#checkoutPage').classList.toggle('active',hash==='#checkout');
+  $('#orderSuccessPage').classList.toggle('active',hash==='#order-success'&&!!latestDemoOrder);
+  $('#detailPage').classList.remove('active');
+  $('#mobileBuyBar').classList.remove('show');
+  $('#home-page').style.display='none';
+  if(hash==='#checkout'){
+    if(!checkoutRows.length){location.hash='home';return}
+    renderCheckout();window.scrollTo(0,0);return;
+  }
+  if(hash==='#order-success'&&latestDemoOrder){window.scrollTo(0,0);return;}
+  const match=hash.match(/^#produk-(\d+)$/);
+  if(match){const p=getProduct(match[1]);if(p){renderDetail(p);$('#detailPage').classList.add('active');window.scrollTo(0,0);return}}
+  $('#home-page').style.display='block';
+  if(hash==='#home')window.scrollTo(0,0);
+}
+
+let zoomScale=1,zoomDrag=false,zoomStartX=0,zoomStartY=0,zoomOffsetX=0,zoomOffsetY=0;
+function updateZoom(){const img=$('#zoomImage');img.style.transform=`translate(${zoomOffsetX}px,${zoomOffsetY}px) scale(${zoomScale})`;$('#zoomLevel').textContent=Math.round(zoomScale*100)+'%';$('#zoomOut').disabled=zoomScale<=1;$('#zoomIn').disabled=zoomScale>=3;$('#zoomWrap').classList.toggle('zoomed',zoomScale>1)}
+function adjustZoom(delta){zoomScale=Math.max(1,Math.min(3,Math.round((zoomScale+delta)*100)/100));if(zoomScale===1){zoomOffsetX=zoomOffsetY=0}updateZoom()}
+function resetZoom(){zoomScale=1;zoomOffsetX=zoomOffsetY=0;updateZoom()}
+const zoomWrap=$('#zoomWrap');
+zoomWrap.addEventListener('wheel',e=>{if(!$('#zoomDialog').classList.contains('open'))return;e.preventDefault();adjustZoom(e.deltaY<0?.25:-.25)},{passive:false});
+zoomWrap.addEventListener('pointerdown',e=>{if(zoomScale===1)return;zoomDrag=true;zoomStartX=e.clientX-zoomOffsetX;zoomStartY=e.clientY-zoomOffsetY;zoomWrap.setPointerCapture(e.pointerId)});
+zoomWrap.addEventListener('pointermove',e=>{if(!zoomDrag)return;zoomOffsetX=e.clientX-zoomStartX;zoomOffsetY=e.clientY-zoomStartY;updateZoom()});
+zoomWrap.addEventListener('pointerup',()=>zoomDrag=false);zoomWrap.addEventListener('pointercancel',()=>zoomDrag=false);
+
+function returnHome(){closePanels();if(location.hash!=='#home')location.hash='home';route();window.scrollTo({top:0,behavior:'smooth'})}
+
+function renderDetail(p){
+  activeProduct=p;chosenSize='';quantity=1;reviewShown=15;
+  $('#detailName').textContent=productDisplayName(p);
+  $('#detailKind').textContent=p.kind==='perfume'?'Parfum':'Busana';
+  $('#detailPrice').textContent=rupiah(getPrice(p));
+  $('#mobileBuyName').textContent=p.name;
+  $('#mobileBuyPrice').textContent=rupiah(getPrice(p));
+  $('#shippingArea').value='';
+  renderDetailThumbs(p);
+  syncWishlistDetail();
+  const n=NOTES[p.scent];
+  $('#includedPerfumePhoto').src=p.scent==='Imperium'?'parfum-imperium.png':'parfum-reflection.png';
+  $('#includedPerfumeName').textContent='MYKONOS '+p.scent+' · INCLUDED';
+  const isPerfume=false;
+  $('#sizeSection').classList.toggle('hidden',isPerfume);
+  $('#detailWeight').textContent=isPerfume?'Estimasi 350 g':'Estimasi 1.400 g';
+  $('#shippingNote').textContent=isPerfume?'Estimasi berat dan pengiriman bersifat demo. Foto parfum dapat diperbesar.':'Estimasi berat dan ongkir di situs ini adalah simulasi; konfirmasi dengan penjual.';
+  if(isPerfume){chosenSize='100 ml';$('#detailTagline').textContent='Parfum MYKONOS '+p.scent+' edisi Ramadan, tampil eksklusif dengan karakter aroma pilihan.';$('#descriptionBrief').innerHTML=`<strong>${p.name}</strong> adalah parfum special edition dengan karakter aroma ${n.character.toLowerCase()} Dilengkapi tampilan botol premium dan cocok menjadi pelengkap koleksi maupun hadiah.`;$('#descriptionFull').innerHTML=`<h3 style="color:#1d304e">MYKONOS ${p.scent} — Ramadan Edition</h3><ul><li><strong>Jenis produk:</strong> Extrait de Parfum.</li><li><strong>Karakter aroma:</strong> ${n.character}</li><li><strong>Top notes:</strong> ${n.top}.</li><li><strong>Middle notes:</strong> ${n.middle}.</li><li><strong>Base notes:</strong> ${n.base}.</li><li><strong>Volume:</strong> 100 ml (demo tampilan).</li></ul><p><strong>Catatan:</strong> Tampilan produk pada website ini merupakan simulasi visual dan menggunakan satu foto utama dengan fitur zoom.</p>`}
+  else{$('#detailTagline').textContent='Setiap pembelian '+p.name+' sudah termasuk satu parfum MYKONOS '+p.scent+' tanpa biaya tambahan. Satu paket, satu signature look.';$('#sizeGrid').innerHTML=SIZES.map(size=>`<button class="size" data-size="${size}" aria-pressed="false">${size}</button>`).join('');$('#descriptionBrief').innerHTML=`<strong>${p.name} × Mykonos ${p.scent}</strong> merupakan paket kolaborasi busana dan parfum. Harga yang tercantum sudah termasuk ${p.name} serta parfum MYKONOS ${p.scent}. Aroma ${p.scent} memiliki karakter ${n.character.toLowerCase()} Pilih ukuran S–XXXL sesuai kebutuhan.`;$('#descriptionFull').innerHTML=`<h3 style="color:#1d304e">Parfum MYKONOS ${p.scent} — Extrait de Parfum</h3><ul><li><strong>Karakter aroma:</strong> ${n.character}</li><li><strong>Top notes:</strong> ${n.top}.</li><li><strong>Middle notes:</strong> ${n.middle}.</li><li><strong>Base notes:</strong> ${n.base}.</li><li><strong>Kesan pemakaian:</strong> ${n.experience}</li><li><strong>Informasi varian:</strong> ${n.bottle}</li></ul><p><strong>Catatan warna:</strong> Warna pada gambar mungkin tidak 100% sama dengan produk asli akibat pencahayaan foto atau tampilan layar.</p><p><strong>Penukaran:</strong> Pertimbangkan toleransi warna dan ukuran sebelum membeli. Jika terdapat perbedaan yang dianggap terlalu jauh, silakan menghubungi Customer Service untuk pengajuan penukaran.</p><p><strong>Pengiriman:</strong> Berat estimasi 1.400 g; diproses dalam 7 hari setelah pembayaran dikonfirmasi. Pilih area pengiriman di atas.</p>`}
+  $('#qtyValue').textContent='1';
+  $('#descriptionFull').classList.add('hidden');$('#showDescription').textContent='Tampilkan Deskripsi Lengkap ↓';
+  $('#mobileBuyBar').classList.add('show');
+  renderReviews()
+}
+
+const FIRST=['Ahmad','Rizky','Fahmi','Naufal','Dimas','Farhan','Reza','Irfan','Arif','Rafi','Yusuf','Aditya','Haris','Aldo','Fikri','Ilham','Hafiz','Rama','Dhani','Bima','Daffa','Ihsan','Ammar','Kevin','Fauzan','Arya','Hakim','Galih','Nabil','Bagas'];
+
+const LAST=['Pratama','Ramadhan','Hidayat','Akbar','Maulana','Saputra','Wijaya','Firmansyah','Nugraha','Putra','Fadillah','Setiawan','Rahman','Kurniawan','Ananda','Mahendra','Syahputra'];
+
+const COMMENTS_A=['Potongan bajunya rapi dan terasa nyaman dipakai','Warna bajunya elegan, cocok untuk acara keluarga','Bahannya terasa nyaman dan tampilannya premium','Jahitan bajunya terlihat rapi dan modelnya modern','Dipakai saat Lebaran terlihat berkelas','Modelnya cocok untuk salat Id dan silaturahmi','Ukuran bajunya pas sesuai pilihan saya','Desainnya simpel tetapi kesan mewahnya terasa','Bajunya enak untuk dipakai seharian','Look-nya terlihat berkelas tanpa berlebihan','Siluet bajunya bagus untuk acara formal','Tekstur dan potongannya memberi kesan eksklusif'];
+
+const COMMENTS_B={Imperium:['parfum Imperium-nya segar dengan sentuhan citrus tropis','wangi Imperium terasa fresh dan cocok untuk cuaca hangat','aroma Imperium memberi kesan liburan yang mewah','Imperium berpadu pas dengan outfit untuk Lebaran','parfum Imperium-nya terasa segar sekaligus elegan','wanginya citrusy dan membuat penampilan makin lengkap'],Reflection:['parfum Reflection-nya terasa bersih dan menyegarkan','wangi Reflection aquatic cocok untuk acara siang','aroma Reflection terasa lembut dan elegan','Reflection membuat paket ini cocok untuk Lebaran','perpaduan citrus dan musk pada Reflection menyenangkan','wangi Reflection fresh untuk dipakai setiap hari']};
+
+const ENDS=['Paket kolaborasinya menarik.','Suka sekali kombinasi keduanya.','Cocok untuk hadiah juga.','Senang dengan konsep busana plus parfumnya.','Terlihat istimewa saat digunakan.','Sangat cocok untuk momen spesial.'];
+
+function exampleReview(p,i){let a=COMMENTS_A[(i+p.id*3)%COMMENTS_A.length],b=COMMENTS_B[p.scent][(i*3+p.id)%6],c=ENDS[(i*5+p.id)%6];const person=FIRST[(i*7+p.id*2)%FIRST.length]+' '+LAST[(i*11+Math.floor(i/29)+p.id)%LAST.length];return {name:person,text:`${a} pada ${p.name}. Bonus ${b}; ${c} (Contoh ulasan #${i+1} untuk produk ${p.id}.)`}}
+
+function renderReviews(){if(!activeProduct)return;const p=activeProduct;$('#reviews').innerHTML=Array.from({length:Math.min(reviewShown,500)},(_,i)=>{let r=exampleReview(p,i);return `<article class="review"><div class="top"><strong>${r.name}</strong><span class="starss" aria-label="5 dari 5 bintang">★★★★★</span></div><p>${r.text}</p></article>`}).join('');$('#moreReviews').classList.toggle('hidden',reviewShown>=500);$('#moreReviews').textContent=`Tampilkan ${Math.min(15,500-reviewShown)} Komentar Berikutnya (${reviewShown} dari 500)`}
+
+function addToCart(open){if(activeProduct.kind!=='perfume'&&!chosenSize){notify('Pilih ukuran baju terlebih dahulu.');return false}const selectedSize=activeProduct.kind==='perfume'?'100 ml':chosenSize;const key=activeProduct.id+'-'+selectedSize;let row=cart.find(x=>x.key===key);if(row)row.qty+=quantity;else cart.push({key,id:activeProduct.id,size:selectedSize,qty:quantity});save();refreshCount();notify(activeProduct.name+' berhasil ditambahkan ke keranjang.');if(open)startCheckout([{key,id:activeProduct.id,size:selectedSize,qty:quantity}]);return true}
+
+function startCheckout(rows,fromCart=false){
+  if(!rows.length){notify('Keranjang masih kosong.');return}
+  checkoutRows=rows.map(r=>({...r}));checkoutFromCart=fromCart;appliedVoucher='';voucherDiscount=0;
+  closePanels();
+  location.hash='checkout';
+  route();
+}
+function deliveryPrice(){return document.querySelector('input[name="delivery"]:checked')?.value==='express'?35000:18000}
+function renderCheckout(){
+  const items=$('#checkoutItems');
+  items.innerHTML=checkoutRows.map(item=>{const p=getProduct(item.id);return `<div class="checkout-order-item"><img src="${p.image}" alt="${p.name}"><div><strong>${productDisplayName(p)}</strong><p>${p.kind==='perfume'?'Ukuran: 100 ml':'Ukuran: '+item.size} · Jumlah: ${item.qty}</p></div><span class="checkout-order-price">${rupiah(item.qty*getPrice(p))}</span></div>`}).join('');
+  $('#voucherInput').value=appliedVoucher;fillSavedAddress();updateCheckoutTotal();
+}
+function updateCheckoutTotal(){
+  const subtotal=checkoutRows.reduce((sum,item)=>sum+item.qty*getPrice(getProduct(item.id)),0);
+  const shipping=deliveryPrice();
+  voucherDiscount=0;
+  if(appliedVoucher&&PROMOS[appliedVoucher]){const promo=PROMOS[appliedVoucher];voucherDiscount=promo.type==='percent'?Math.round(subtotal*promo.value/100):promo.value;voucherDiscount=Math.min(voucherDiscount,subtotal)}
+  $('#discountRow').classList.toggle('hidden',!voucherDiscount);
+  $('#checkoutDiscount').textContent='- '+rupiah(voucherDiscount);
+  $('#checkoutSubtotal').textContent=rupiah(subtotal);$('#checkoutShipping').textContent=rupiah(shipping);$('#checkoutTotal').textContent=rupiah(subtotal+shipping-voucherDiscount);
+}
+function submitDemoOrder(e){
+  e.preventDefault();
+  const form=e.target;
+  if(!form.reportValidity())return;
+  const payment=document.querySelector('input[name="payment"]:checked');
+  if(!payment){$('#checkoutError').textContent='Silakan pilih metode pembayaran terlebih dahulu.';$('#checkoutError').classList.add('show');return}
+  $('#checkoutError').classList.remove('show');
+  const subtotal=checkoutRows.reduce((sum,item)=>sum+item.qty*getPrice(getProduct(item.id)),0),shipping=deliveryPrice(),method=payment.value,total=subtotal+shipping-voucherDiscount;
+  latestDemoOrder={id:'ZM-'+Math.floor(100000+Math.random()*900000),name:$('#orderName').value.trim(),payment:method,total,voucher:appliedVoucher||'-',createdAt:new Date().toLocaleString('id-ID')};
+  demoOrders.unshift({...latestDemoOrder,status:'Pesanan diterima'});demoOrders=demoOrders.slice(0,12);
+  const receipt=$('#orderSuccessReceipt');receipt.innerHTML='';
+  const entries=[['Nomor pesanan',latestDemoOrder.id],['Tanggal',latestDemoOrder.createdAt],['Penerima',latestDemoOrder.name],['Metode pembayaran',method+' (demo)'],['Voucher',latestDemoOrder.voucher],['Jumlah produk',String(checkoutRows.reduce((n,x)=>n+x.qty,0))],['Total simulasi',rupiah(latestDemoOrder.total)],['Status pembayaran','Belum diproses']];
+  for(const [label,value] of entries){const r=document.createElement('div');r.className='checkout-row';const a=document.createElement('span');a.textContent=label;const b=document.createElement('strong');b.textContent=value;r.append(a,b);receipt.append(r)}
+  if(checkoutFromCart){const cartCounts=new Map();for(const row of checkoutRows)cartCounts.set(row.key,(cartCounts.get(row.key)||0)+row.qty);
+  cart=cart.filter(row=>{const left=row.qty-(cartCounts.get(row.key)||0);if(left>0){row.qty=left;return true}return false});}
+  saveAddressDraft();save();refreshCount();checkoutRows=[];form.reset();appliedVoucher='';voucherDiscount=0;updateCheckoutTotal();
+  location.hash='order-success';route();
+}
+function refreshCount(){const n=cart.reduce((sum,item)=>sum+item.qty,0);$('#cartCount').textContent=n;$('#cartCount').classList.toggle('hidden',!n);$('#verifiedLabel').classList.toggle('hidden',!isVerified)}
+
+function renderCart(){let total=cart.reduce((sum,i)=>sum+i.qty*getPrice(getProduct(i.id)),0);let markup;if(!cart.length){markup=`<div class="cart-empty">${ico('bag')}<h4>Keranjang Kosong</h4><p>Tambahkan produk untuk melanjutkan belanja.</p><button class="btn btn-outline" data-action="close">Lanjutkan Belanja</button></div>`}else{markup='<h4 style="margin:3px 0 12px">Produk Pilihan Anda</h4>'+cart.map((item,i)=>{let p=getProduct(item.id);return `<div class="cart-line"><img src="${p.image}" alt="${p.name}"><div><strong>${productDisplayName(p)}</strong><p>Ukuran ${item.size} · Jumlah ${item.qty}</p><p>${rupiah(item.qty*getPrice(p))}</p></div><button class="text-btn" data-remove="${i}">Hapus</button></div>`}).join('')};$('#cartContent').innerHTML=markup+`<h4 style="font-size:.82rem;margin:30px 0 0">Jelajahi Koleksi</h4><div class="drawer-products">${PRODUCTS.map(p=>`<div class="mini" data-product="${p.id}"><img src="${p.image}" alt="${p.name}" loading="lazy"><h5>${productDisplayName(p)}</h5><p>${rupiah(getPrice(p))}</p></div>`).join('')}</div>`;$('#cartFooter').innerHTML=cart.length?`<div class="total"><span>Subtotal (${cart.reduce((s,i)=>s+i.qty,0)} item)</span><span>${rupiah(total)}</span></div><button class="btn btn-dark btn-full" id="checkoutButton">Lanjut ke Checkout</button><p class="helper">Simulasi belanja: belum terhubung pembayaran, stok, dan ongkir nyata.</p>`:''}
+
+function renderAccount(){if(isVerified){$('#accountBody').innerHTML=`<div class="success"><div class="big">✓</div><h3>Login Success!</h3><p class="helper">Selamat datang, <strong id="accountName"></strong>.</p><span class="status-pill">TERVERIFIKASI</span><div style="margin-top:25px"><button class="btn btn-outline" id="logoutButton">Logout</button></div><p class="helper">Status ini hanya login simulasi, bukan verifikasi identitas.</p></div>`;$('#accountName').textContent=currentUser||'Guest';return}$('#accountBody').innerHTML=`<div class="tabs"><button class="${accountMode==='login'?'active':''}" data-account-tab="login">Login</button><button class="${accountMode==='register'?'active':''}" data-account-tab="register">Daftar</button></div><p class="helper">Gunakan username dan password apa saja untuk mencoba fitur akun demo.</p><form id="accountForm"><div class="field"><label for="loginUsername">Username</label><input id="loginUsername" name="username" required autocomplete="username" placeholder="Masukkan username" minlength="1" /></div><div class="field"><label for="loginPassword">Password</label><input id="loginPassword" name="password" type="password" required autocomplete="off" placeholder="Masukkan password" minlength="1" /></div><button type="submit" class="btn btn-dark btn-full">${accountMode==='login'?'Login Sekarang':'Daftar Sekarang'}</button></form><p class="helper" style="margin-top:17px">Tidak ada akun sungguhan yang dibuat. Password tidak disimpan.</p>`}
+
+function openPanel(which){closePanels();$('#overlay').classList.add('open');document.body.classList.add('lock');if(which==='cart'){renderCart();$('#cartDrawer').classList.add('open')}if(which==='search'){renderSearch();$('#searchDialog').classList.add('open');setTimeout(()=>$('#searchInput').focus(),120)}if(which==='account'){renderAccount();$('#accountDialog').classList.add('open')}}
+
+function closePanels(){$('#overlay').classList.remove('open');$('#cartDrawer').classList.remove('open');$('#searchDialog').classList.remove('open');$('#accountDialog').classList.remove('open');closeSimpleDialogs();document.body.classList.remove('lock')}
+
+function support(){// 002200786 is not a confirmed international WhatsApp number.
+
+ notify('Nomor 002200786 perlu kode negara yang valid sebelum tautan WhatsApp bisa diaktifkan.');}
+
+function scrollToSection(id){closePanels();if($('#detailPage').classList.contains('active')){location.hash='home';route();setTimeout(()=>document.getElementById(id)?.scrollIntoView({behavior:'smooth'}),40)}else document.getElementById(id)?.scrollIntoView({behavior:'smooth'})}
+
+function initGallery(){const gallery=[];for(let i=0;i<PRODUCTS.length;i++){gallery.push(PRODUCTS[i].image);if(PRODUCTS[i].kind==='apparel'&&i<PERFUME_IMAGES.length*2&&i%2===0)gallery.push(PERFUME_IMAGES[Math.floor(i/2)])}const el=$('#galleryTrack');el.innerHTML=[...gallery,...gallery].map((src,i)=>`<div class="gallery-item"><img src="${src}" alt="Galeri kolaborasi Zafeer Mykonos ${i+1}" loading="lazy" /></div>`).join('');let index=0;let timer;function tick(){if(document.hidden||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;index++;if(index>=gallery.length){el.style.transition='none';index=0;el.style.transform='translateX(0)';void el.offsetWidth;el.style.transition='transform .7s cubic-bezier(.22,.7,.2,1)';index=1}const item=el.children[index];el.style.transform='translateX(-'+item.offsetLeft+'px)'}timer=setInterval(tick,1000);$('#galleryViewport').addEventListener('mouseenter',()=>clearInterval(timer));$('#galleryViewport').addEventListener('mouseleave',()=>{clearInterval(timer);timer=setInterval(tick,1000)})}
+
+function reveal(){let observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.09});document.querySelectorAll('.reveal').forEach(e=>observer.observe(e))}
+
+// Route all main click actions through one delegated handler.
+
+document.addEventListener('click',e=>{const a=e.target.closest('[data-action]');if(a){if(a.dataset.action==='close')closePanels();if(a.dataset.action==='home')returnHome();if(['cart','search','account'].includes(a.dataset.action))openPanel(a.dataset.action);if(a.dataset.action==='support')support();if(a.dataset.action==='back-to-shopping')history.length>1?history.back():returnHome();if(a.dataset.action==='checkout-login'){notify('Login akun demo tersedia melalui ikon akun di halaman utama.')}if(a.dataset.action==='track-order')openTrackDialog(latestDemoOrder?.id||'');if(a.dataset.action==='close-size-guide'||a.dataset.action==='close-zoom'||a.dataset.action==='close-track'){closePanels()}return}const sc=e.target.closest('[data-scroll]');if(sc){scrollToSection(sc.dataset.scroll);return}const filt=e.target.closest('[data-filter]');if(filt){filter=filt.dataset.filter;renderProducts();return}const wish=e.target.closest('[data-wishlist]');if(wish){toggleWishlist(wish.dataset.wishlist);return}const thumb=e.target.closest('[data-thumb-index]');if(thumb&&activeProduct){document.querySelectorAll('.detail-thumb').forEach(b=>{b.classList.toggle('active',b===thumb);b.setAttribute('aria-pressed',String(b===thumb))});const item=galleryFor(activeProduct)[Number(thumb.dataset.thumbIndex)];activeGalleryIndex=Number(thumb.dataset.thumbIndex);applyPhotoView(item);return}const term=e.target.closest('[data-term]');if(term){$('#searchInput').value=term.dataset.term;renderSearch();return}const prod=e.target.closest('[data-product]');if(prod){openProduct(prod.dataset.product);return}const size=e.target.closest('[data-size]');if(size){chosenSize=size.dataset.size;document.querySelectorAll('.size').forEach(b=>{b.classList.toggle('selected',b===size);b.setAttribute('aria-pressed',String(b===size))});return}const tab=e.target.closest('[data-account-tab]');if(tab){accountMode=tab.dataset.accountTab;renderAccount();return}const rm=e.target.closest('[data-remove]');if(rm){cart.splice(Number(rm.dataset.remove),1);save();refreshCount();renderCart();return}if(e.target.id==='qtyMinus'){quantity=Math.max(1,quantity-1);$('#qtyValue').textContent=quantity}if(e.target.id==='qtyPlus'){quantity=Math.min(99,quantity+1);$('#qtyValue').textContent=quantity}if(e.target.id==='addCart')addToCart(false);if(e.target.id==='buyNow'){if(activeProduct.kind!=='perfume'&&!chosenSize){notify('Pilih ukuran baju terlebih dahulu.')}else startCheckout([{key:activeProduct.id+'-'+(activeProduct.kind==='perfume'?'100 ml':chosenSize),id:activeProduct.id,size:(activeProduct.kind==='perfume'?'100 ml':chosenSize),qty:quantity}])}if(e.target.id==='mobileBuyNow'){if(activeProduct.kind!=='perfume'&&!chosenSize){notify('Pilih ukuran baju terlebih dahulu.')}else startCheckout([{key:activeProduct.id+'-'+(activeProduct.kind==='perfume'?'100 ml':chosenSize),id:activeProduct.id,size:(activeProduct.kind==='perfume'?'100 ml':chosenSize),qty:quantity}])}if(e.target.id==='detailFavorite')toggleWishlist(activeProduct.id);if(e.target.id==='zoomIn')adjustZoom(.25);if(e.target.id==='zoomOut')adjustZoom(-.25);if(e.target.id==='zoomReset')resetZoom();if(e.target.id==='openSizeGuide')openSimpleDialog('#sizeGuideDialog');if(e.target.id==='openImageZoom'||e.target.id==='detailPhoto')openZoom();if(e.target.id==='saveAddressButton')saveAddressDraft();if(e.target.id==='applyVoucher')applyVoucherCode();if(e.target.id==='openTrackFromSuccess')openTrackDialog(latestDemoOrder?.id||'');if(e.target.id==='printReceipt')window.print();if(e.target.id==='showDescription'){const d=$('#descriptionFull'),was=d.classList.toggle('hidden');e.target.textContent=was?'Tampilkan Deskripsi Lengkap ↓':'Sembunyikan Deskripsi ↑'}if(e.target.id==='moreReviews'){reviewShown=Math.min(500,reviewShown+15);renderReviews()}if(e.target.id==='logoutButton'){isVerified=false;currentUser='';save();refreshCount();renderAccount();notify('Kamu telah logout dari akun demo.')}if(e.target.id==='checkoutButton'){startCheckout(cart,true)}});
+
+document.addEventListener('submit',e=>{if(e.target.id==='checkoutForm'){submitDemoOrder(e);return}if(e.target.id==='trackForm'){e.preventDefault();const id=$('#trackInput').value.trim();const order=trackOrder(id);$('#trackResult').innerHTML=order?`<div class="track-status"><strong>Pesanan ${order.id}</strong><div class="helper">Atas nama ${order.name} · ${rupiah(order.total)}</div><div class="timeline"><div class="active">1. Pesanan diterima</div><div class="active">2. Menunggu pembayaran/verifikasi demo</div><div>3. Siap diproses penjual</div><div>4. Pengiriman (belum aktif pada demo)</div></div></div>`:'<div class="track-status">Nomor pesanan tidak ditemukan pada browser ini.</div>';return}if(e.target.id!=='accountForm')return;e.preventDefault();const u=$('#loginUsername').value.trim();const password=$('#loginPassword').value;if(!u||!password)return;currentUser=u;isVerified=true;save();refreshCount();renderAccount();notify('Login Success! Status: TERVERIFIKASI')});
+
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanels();if((e.key==='Enter'||e.key===' ')&&e.target.matches('[data-product][tabindex="0"]')){e.preventDefault();openProduct(e.target.dataset.product)}});
+
+document.querySelectorAll('input[name="delivery"]').forEach(el=>el.addEventListener('change',updateCheckoutTotal));$('#searchInput').addEventListener('input',renderSearch);$('#overlay').addEventListener('click',closePanels);window.addEventListener('hashchange',route);
+
+$('#story1').src=PRODUCTS[0].image;$('#story2').src=PRODUCTS[2].image;
+
+document.addEventListener('error',e=>{if(e.target.tagName==='IMG'&&!e.target.dataset.fallback){e.target.dataset.fallback='1';e.target.style.background='#e9e4db';e.target.alt=(e.target.alt||'Gambar produk')+' (gambar belum tersedia)';e.target.style.objectFit='contain';}},true);
+renderProducts();refreshCount();initGallery();route();reveal();
+
+</script>
+
+</body></html>
